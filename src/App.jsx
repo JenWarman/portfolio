@@ -1,12 +1,13 @@
-import './App.css'
+import styles from './App.module.css'
+import Header from './components/Header'
 
 function App() {
  
 
   return (
-    <>
-      Hello World!
-    </>
+    <div className={styles.App}>
+      <Header/>
+    </div>
   )
 }
 
