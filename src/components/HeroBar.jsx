@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 function HeroBar() {
   return (
     <Container className="hero-bar">
+      
       <Row>
       <Col xs={6} md={4}>
           <h1 className='hero-header'>Designer</h1>

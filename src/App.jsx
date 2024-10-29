@@ -8,8 +8,12 @@ function App() {
  
 
   return (
-    <div className={styles.App}>
+      <div className={styles.App}>
+        
       <Header/>
+      <div className='diagonal-box'>
+        
+      </div>
       <HeroBar/>
       <Footer />
     </div>

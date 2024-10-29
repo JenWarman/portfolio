@@ -1,9 +1,11 @@
 import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 function Footer() {
   return (
     <>
-      <Nav bg="dark" data-bs-theme="dark" className="justify-content-end" activeKey="/home">
+    <Navbar bg="dark" data-bs-theme="dark" className="justify-content-end">
+      <Nav  activeKey="/home">
         <Nav.Item>
           <Nav.Link href="/home">Active</Nav.Link>
         </Nav.Item>
@@ -19,6 +21,7 @@ function Footer() {
           </Nav.Link>
         </Nav.Item>
       </Nav>
+      </Navbar>
     </>
   );
 }

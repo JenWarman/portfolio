@@ -6,7 +6,10 @@
 }
 
 .hero-bar {
-  margin-top: 5rem;
+  max-width: 60em;
+  margin: 0 auto;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 .hero-header {
@@ -18,5 +21,11 @@
 .hero-sub-header {
   text-align: justify;
   margin-left: 3rem;
-  margin-right: 3cqh;
+  margin-right: 3rem;
+}
+
+.diagonal-box {
+  border-left: 90vw solid transparent;
+  border-top: 50vh solid #2e77ff;
+  margin-bottom: -50vw;
 }
