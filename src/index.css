@@ -8,8 +8,8 @@
 .hero-bar {
   max-width: 60em;
   margin: 0 auto;
-  margin-top: 5em;
-  margin-bottom: 5em;
+  margin-top: 10em;
+  margin-bottom: 10em;
 }
 
 .hero-header {
@@ -24,14 +24,25 @@
   margin-right: 3rem;
 }
 
-.diagonal-box {
-  /* border-left: 90vw solid transparent;
+/* .diagonal-box {
+  border-left: 90vw solid transparent;
   border-top: 50vh solid #2e77ff;
   margin-bottom: -50vw;
   position:absolute;
-  z-index: -1; */
-}
+  z-index: -1;
+} */
 
 /* #developer {
   color: #ffff
 } */
+
+.recent-projects {
+  margin: 10rem;
+  padding: 3rem;
+  padding-top: 10rem;
+}
+
+.project-image {
+ padding: 1rem;
+}
+

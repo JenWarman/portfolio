@@ -13,13 +13,13 @@ function RecentProjects() {
           <p className='recent-projects-text'>ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor elit odio, nec dapibus orci malesuada a. Ut gravida, lorem eget mattis porta, ex enim condimentum erat, ac lacinia turpis nibh at ipsum.</p>
           <Button variant="outline-dark">Project</Button>
         </Col>
-        <Col xs={5} md={3}>
+        <Col className='project-image' xs={5} md={3}>
           <Image src="../ByteSize1.png" rounded fluid/>
         </Col>
-        <Col xs={5} md={3}>
+        <Col className='project-image' xs={5} md={3}>
           <Image src="../ByteSize2 (1).png" rounded fluid/>
         </Col>
-        <Col xs={5} md={3}>
+        <Col className='project-image' xs={5} md={3}>
           <Image src="../ByteSize3.png" rounded fluid/>
         </Col>
       </Row>
