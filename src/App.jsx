@@ -17,12 +17,13 @@ function App() {
       <Header/>
       <div className='diagonal-box'></div>
       
-      <Routes>
-        <Route path='/' element={<><HeroBar /><RecentProjects/></>}></Route>
-          <Route path='/about' element={<><About /><Skills/></>}></Route>
-          <Route path='/projects' element={<Projects />}></Route>
-      </Routes> 
-
+      <div className="content">
+        <Routes>
+          <Route path='/' element={<><HeroBar /><RecentProjects/></>}></Route>
+            <Route path='/about' element={<><About /><Skills/></>}></Route>
+            <Route path='/projects' element={<Projects />}></Route>
+        </Routes> 
+      </div>
       <Footer />
     </div>
   )

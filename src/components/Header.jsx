@@ -8,11 +8,11 @@ function Header() {
       <>
         <Navbar bg="dark" data-bs-theme="dark">
           <Container fluid>
-            <Navbar.Brand href="#home">Jen Warman</Navbar.Brand>
+            <Navbar.Brand href="/">Jen Warman</Navbar.Brand>
             <Nav className="me-auto">
-              <Nav.Link href="#home">About</Nav.Link>
-              <Nav.Link href="#features">Projects</Nav.Link>
-              <Nav.Link href="#pricing">Contact</Nav.Link>
+              <Nav.Link href="/about">About</Nav.Link>
+              <Nav.Link href="/projects">Projects</Nav.Link>
+              <Nav.Link href="https://www.linkedin.com/in/jen-warman-38198a172/">Contact</Nav.Link>
             </Nav>
           </Container>
         </Navbar>

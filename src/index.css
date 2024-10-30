@@ -5,6 +5,11 @@
   font-family: "Outfit", Arial, Helvetica, sans-serif;
 }
 
+.content {
+  position: relative;
+  z-index: 100;
+}
+
 .hero-bar {
   max-width: 60em;
   margin: 0 auto;
@@ -14,24 +19,24 @@
 
 .hero-header {
   font-weight:bold;
+  font-size:80px;
   text-align: center;
   margin-top: 50%;
 }
 
 .hero-sub-header {
   text-align: justify;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .diagonal-box {
   border-left: 100vw solid transparent;
-  border-top: 50vh solid #2e77ff;
+  border-top: 60vh solid #2e77ff;
   margin-bottom: -50vw;
   position:absolute;
   width: 100vw;
-  
-  /* z-index: -1; */
+  z-index: 1;
 }
 
 /* #developer {
