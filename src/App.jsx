@@ -12,19 +12,18 @@ function App() {
 
   return (
     <div className={styles.App}>
-      
-    
-    <BrowserRouter>
-    <Header/>
+      <Header/>
       <div className='diagonal-box'></div>
       <HeroBar/>
       <RecentProjects />
+      <About />
+      <Footer />
+    
+    {/* <BrowserRouter>
       <Routes>
           <Route path='/about' element={<About />}/>
-      </Routes>
-      <Footer />
-      
-    </BrowserRouter>
+      </Routes> */} 
+    {/* </BrowserRouter> */}
     </div>
   )
 }

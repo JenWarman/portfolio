@@ -52,3 +52,19 @@
   font-weight: 600;
 }
 
+
+.about-section {
+  max-width: 60em;
+  margin: 0 auto;
+  margin-top: 10em;
+  margin-bottom: 10em;
+}
+
+.about-title {
+  font-weight: bold;
+}
+
+.about-text {
+  text-align: justify;
+  margin-right: 3rem
+}
