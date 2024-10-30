@@ -19,10 +19,11 @@ function App() {
       <div className='diagonal-box'></div>
       <HeroBar/>
       <RecentProjects />
-      <Footer />
       <Routes>
           <Route path='/about' element={<About />}/>
       </Routes>
+      <Footer />
+      
     </BrowserRouter>
     </div>
   )
