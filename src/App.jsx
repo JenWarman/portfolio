@@ -3,6 +3,7 @@ import Header from './components/Header'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HeroBar from './components/HeroBar';
 import Footer from './components/Footer';
+import RecentProjects from './components/RecentProjects';
 
 function App() {
  
@@ -15,6 +16,7 @@ function App() {
         
       </div>
       <HeroBar/>
+      <RecentProjects />
       <Footer />
     </div>
   )

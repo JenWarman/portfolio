@@ -25,9 +25,11 @@
 }
 
 .diagonal-box {
-  border-left: 90vw solid transparent;
+  /* border-left: 90vw solid transparent;
   border-top: 50vh solid #2e77ff;
   margin-bottom: -50vw;
+  position:absolute;
+  z-index: -1; */
 }
 
 /* #developer {
