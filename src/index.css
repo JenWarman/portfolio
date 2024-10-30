@@ -24,13 +24,15 @@
   margin-right: 3rem;
 }
 
-/* .diagonal-box {
-  border-left: 90vw solid transparent;
+.diagonal-box {
+  border-left: 100vw solid transparent;
   border-top: 50vh solid #2e77ff;
   margin-bottom: -50vw;
   position:absolute;
-  z-index: -1;
-} */
+  width: 100vw;
+  
+  /* z-index: -1; */
+}
 
 /* #developer {
   color: #ffff
@@ -44,5 +46,9 @@
 
 .project-image {
  padding: 1rem;
+}
+
+.recent-projects-title {
+  font-weight: 600;
 }
 
