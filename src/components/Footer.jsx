@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function Footer() {
   return (
     <>
-    <Navbar bg="dark" data-bs-theme="dark" className="justify-content-end">
+    <Navbar bg="dark" data-bs-theme="dark" className="navbar fixed-bottom">
       <Nav  activeKey="/home">
         <Nav.Item>
           <Nav.Link href="/home">Active</Nav.Link>

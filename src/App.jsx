@@ -4,8 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HeroBar from './components/HeroBar';
 import Footer from './components/Footer';
 import RecentProjects from './components/RecentProjects';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 function App() {
  
@@ -14,16 +16,14 @@ function App() {
     <div className={styles.App}>
       <Header/>
       <div className='diagonal-box'></div>
-      <HeroBar/>
-      <RecentProjects />
-      <About />
-      <Footer />
-    
-    {/* <BrowserRouter>
+      
       <Routes>
-          <Route path='/about' element={<About />}/>
-      </Routes> */} 
-    {/* </BrowserRouter> */}
+        <Route path='/' element={<><HeroBar /><RecentProjects/></>}></Route>
+          <Route path='/about' element={<><About /><Skills/></>}></Route>
+          <Route path='/projects' element={<Projects />}></Route>
+      </Routes> 
+
+      <Footer />
     </div>
   )
 }
