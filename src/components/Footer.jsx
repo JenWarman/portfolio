@@ -19,11 +19,6 @@ function Footer() {
         <Nav.Item className='social-icon ' >
           <Nav.Link href="mailto: jen.warman85@gmail.com" ><Image src='../Email.png'/></Nav.Link>
         </Nav.Item>
-        {/* <Nav.Item>
-          <Nav.Link eventKey="disabled" disabled>
-            Disabled
-          </Nav.Link>
-        </Nav.Item> */}
       </Nav>
       </Navbar>
     </>
