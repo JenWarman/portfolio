@@ -73,3 +73,9 @@
   text-align: justify;
   margin-right: 3rem
 }
+
+.skills {
+  margin-top: 20rem;
+  margin-bottom: 20rem;
+  justify-content: center;
+}
