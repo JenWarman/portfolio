@@ -5,6 +5,9 @@ import Row from 'react-bootstrap/Row';
 
 function HeroBar() {
   return (
+      <>
+    <div className='diagonal-box'></div> 
+    <div className="content">
     <Container className="hero-bar">
       <Row>
       <Col xs={4} md={2} >
@@ -24,6 +27,8 @@ function HeroBar() {
         </Col>
       </Row>
     </Container>
+    </div>
+    </>
   );
 }
 

@@ -64,7 +64,7 @@
 .about-section {
   max-width: 60em;
   margin: 0 auto;
-  margin-top: 17em;
+  margin-top: 10em;
   margin-bottom: 10em;
 }
 
@@ -82,4 +82,37 @@
   margin-top: 10rem;
   margin-bottom: 20rem;
   justify-content: center;
+}
+
+.skills-circle {
+  border: solid #ffff 5px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  font-size: 40px;
+  text-align: center;
+}
+
+#figma {
+  background-color: #0C42A6;
+}
+
+#adobe {
+  background-color: #2260D4;
+}
+
+#javascript {
+  background-color: #2C76FF;
+}
+
+#html {
+  background-color: #4687FF;
+}
+
+#css {
+  background-color: #77A7FF;
 }

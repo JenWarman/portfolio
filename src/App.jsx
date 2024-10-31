@@ -15,15 +15,15 @@ function App() {
   return (
     <div className={styles.App}>
       <Header/>
-      <div className='diagonal-box'></div>
+      {/* <div className='diagonal-box'></div> */}
       
-      <div className="content">
+      {/* <div className="content"> */}
         <Routes>
           <Route path='/' element={<><HeroBar /><RecentProjects/></>}></Route>
             <Route path='/about' element={<><About /><Skills/></>}></Route>
             <Route path='/projects' element={<Projects />}></Route>
         </Routes> 
-      </div>
+      {/* </div> */}
       <Footer />
     </div>
   )

@@ -9,19 +9,24 @@ function Skills() {
     <Container className='skills'>
       <Row className='justify-content-center'>
         <Col xs={4} md={2}>
-          <Image src="./figma.png" roundedCircle />
+        <div className='skills-circle' id='figma'>Figma</div>
+          {/* <Image src="./figma.png" roundedCircle /> */}
         </Col>
         <Col xs={4} md={2}>
-          <Image src="./adobe.png" roundedCircle />
+          {/* <Image src="./adobe.png" roundedCircle /> */}
+          <div className='skills-circle' id='adobe'>Adobe Creative Suite</div>
         </Col>
         <Col xs={4} md={2}>
-          <Image src="./JavaScript.png" roundedCircle />
+          {/* <Image src="./JavaScript.png" roundedCircle /> */}
+          <div className='skills-circle' id='javascript'>JavaScript</div>
         </Col>
         <Col xs={4} md={2} >
-          <Image src="./HTML.png" roundedCircle />
+          {/* <Image src="./HTML.png" roundedCircle /> */}
+          <div className='skills-circle' id='html'>HTML</div>
         </Col>
         <Col xs={4} md={2}>
-          <Image src="./CSS.png" roundedCircle />
+          {/* <Image src="./CSS.png" roundedCircle /> */}
+          <div className='skills-circle' id='css'>CSS</div>
         </Col>
       </Row>
     </Container>
