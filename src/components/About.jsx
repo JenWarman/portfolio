@@ -26,7 +26,7 @@ function About() {
           </p>
         </Col>
         <Col xs={6} md={4}>
-          <Image src="../profileBG.png" rounded fluid />
+          <Image src="../profile.jpg" rounded fluid />
         </Col>
       </Row>
     </Container>
