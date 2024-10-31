@@ -33,7 +33,6 @@
 .diagonal-box {
   border-left: 100vw solid transparent;
   border-top: 80vh solid #2e77ff;
-  margin-bottom: -50vw;
   position:absolute;
   width: 100vw;
   z-index: 1;
@@ -42,7 +41,7 @@
 .bottom-diagonal-box {
   border-right: 100vw solid transparent;
   border-bottom: 80vh solid #2e77ff;
-  margin-top: 100vw;
+  margin-top: 30vw;
   position:absolute;
   width: 100vw;
   z-index: 1;
@@ -147,14 +146,30 @@
 }
 
 .divider {
-  /* border: solid 1px; */
-  /* display: flex;
-  justify-content: center; */
-  /* align-items: center; */
   height: 6px;
   width: 80%;
   margin-left: 10%;
   background-color: #2C76FF;
 }
 
+.developer-project-header {
+  font-weight:bold;
+  font-size:80px;
+  text-align: end;
+}
 
+.developer-recent-projects-title {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: end;
+}
+
+.developer-projects-title {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: end;
+}
+
+.developer-button {
+  float: right;
+}
