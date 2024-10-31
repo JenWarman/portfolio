@@ -7,9 +7,9 @@ function About() {
   return (
     <Container className="about-section">
       <Row>
-        <Col xs={12} md={8}>
+        <Col xs={7} md={5}>
           <h1 className="about-title">About Me</h1>
-          <p className="about-text">
+          <h4 className="about-text">
             Hi, I’m Jen, a UI/UX designer currently based in Nottingham, UK and
             have been designing for over 13 years.<br></br>
             <br></br>With a background in surface pattern design I more recently
@@ -23,9 +23,9 @@ function About() {
             <br></br>Now I continue to expand my design knowledge and utilise my
             improved technical and interpersonal skills to create engaging
             digital design solutions.
-          </p>
+          </h4>
         </Col>
-        <Col xs={6} md={4}>
+        <Col xs={11} md={7}>
           <Image src="../profile.jpg" rounded fluid />
         </Col>
       </Row>

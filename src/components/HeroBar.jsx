@@ -7,18 +7,20 @@ function HeroBar() {
   return (
     <Container className="hero-bar">
       <Row>
-      <Col xs={5} md={3} >
+      <Col xs={4} md={2} >
           <h1 className='hero-header'>Designer</h1>
-          <h4 className='hero-sub-header'>ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor elit odio, nec dapibus orci malesuada a. Ut gravida, lorem eget mattis porta, ex enim condimentum erat, ac lacinia turpis nibh at ipsum.</h4>
+          <h5 className='hero-sub-header'>ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor elit odio, nec dapibus orci malesuada a. Ut gravida, lorem eget mattis porta, ex enim condimentum erat, ac lacinia turpis nibh at ipsum.</h5>
         </Col>
         <Col></Col>
-        <Col className='profile-image' xs={6} md={4}>
+        <Col></Col>
+        <Col></Col>
+        <Col className='profile-image' xs={8} md={6}>
           <Image src="../profile.jpg" rounded fluid/>
         </Col>
         <Col></Col>
-        <Col id='developer' xs={5} md={3}>
+        <Col id='developer' xs={4} md={2}>
           <h1 className='hero-header'>Developer</h1>
-          <h4 className='hero-sub-header'>ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor elit odio, nec dapibus orci malesuada a. </h4>
+          <h5 className='hero-sub-header'>ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor elit odio, nec dapibus orci malesuada a. </h5>
         </Col>
       </Row>
     </Container>

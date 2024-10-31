@@ -15,6 +15,7 @@
   margin: 0 auto;
   margin-top: 10em;
   margin-bottom: 10em;
+  text-align: center;
 }
 
 .hero-header {
@@ -26,8 +27,7 @@
 
 .hero-sub-header {
   text-align: justify;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-right: -60%;
 }
 
 .diagonal-box {
@@ -67,6 +67,7 @@
 
 .about-title {
   font-weight: bold;
+  font-size: 80px;
 }
 
 .about-text {
