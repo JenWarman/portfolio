@@ -173,3 +173,12 @@
 .developer-button {
   float: right;
 }
+
+.social-icon {
+ float:end
+}
+
+#header-title {
+  font-size: 50px;
+}
+
