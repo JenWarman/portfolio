@@ -22,7 +22,7 @@
   font-weight:bold;
   font-size:80px;
   text-align: center;
-  margin-top: 50%;
+  margin-top: 20rem;
 }
 
 .hero-sub-header {
@@ -32,16 +32,18 @@
 
 .diagonal-box {
   border-left: 100vw solid transparent;
-  border-top: 60vh solid #2e77ff;
+  border-top: 80vh solid #2e77ff;
   margin-bottom: -50vw;
   position:absolute;
   width: 100vw;
   z-index: 1;
 }
-
-/* #developer {
-  color: #ffff
+/* #designer {
+  
 } */
+#developer {
+  color: #ffff
+}
 
 .recent-projects {
   margin: 10rem;
@@ -55,13 +57,14 @@
 
 .recent-projects-title {
   font-weight: 600;
+  font-size: 40px;
 }
 
 
 .about-section {
   max-width: 60em;
   margin: 0 auto;
-  margin-top: 10em;
+  margin-top: 17em;
   margin-bottom: 10em;
 }
 
@@ -76,7 +79,7 @@
 }
 
 .skills {
-  margin-top: 20rem;
+  margin-top: 10rem;
   margin-bottom: 20rem;
   justify-content: center;
 }

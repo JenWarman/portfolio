@@ -8,7 +8,7 @@ function HeroBar() {
     <Container className="hero-bar">
       <Row>
       <Col xs={4} md={2} >
-          <h1 className='hero-header'>Designer</h1>
+          <h1 id='designer' className='hero-header'>Designer</h1>
           <h5 className='hero-sub-header'>ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor elit odio, nec dapibus orci malesuada a. Ut gravida, lorem eget mattis porta, ex enim condimentum erat, ac lacinia turpis nibh at ipsum.</h5>
         </Col>
         <Col></Col>
