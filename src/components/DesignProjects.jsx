@@ -1,16 +1,14 @@
 import { Col, Container, Row, Button, Image } from "react-bootstrap";
 
-function Projects() {
+function DesignProjects() {
     return (
         <>
         <div className='diagonal-box'></div> 
-        <div className='bottom-diagonal-box'></div> 
         <div className="content">
         <Container className="design-projects">
         <Row>
             <Col>
             <h1 className="project-header">Projects</h1>
-            {/* <h2 classname='project-subheading'>UI/UX Design</h2> */}
             <h2 className='recent-projects-title'>UI/UX Design</h2>
             </Col>
         </Row>
@@ -51,7 +49,7 @@ function Projects() {
 
       <Row>
         <Col>
-        <div>line here</div></Col>
+        <div className="divider"></div></Col>
       </Row>
       </Container>
         </div>
@@ -59,4 +57,4 @@ function Projects() {
     )
 }
 
-export default Projects;
+export default DesignProjects;

@@ -7,7 +7,8 @@ import RecentProjects from './components/RecentProjects';
 import { Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Skills from './components/Skills';
-import Projects from './components/Projects';
+import DesignProjects from './components/DesignProjects';
+import DeveloperProjects from './components/DeveloperProjects';
 
 function App() {
  
@@ -21,7 +22,7 @@ function App() {
         <Routes>
           <Route path='/' element={<><HeroBar /><RecentProjects/></>}></Route>
             <Route path='/about' element={<><About /><Skills/></>}></Route>
-            <Route path='/projects' element={<Projects />}></Route>
+            <Route path='/projects' element={<><DesignProjects /><DeveloperProjects/></>}></Route>
         </Routes> 
       {/* </div> */}
       <Footer />
