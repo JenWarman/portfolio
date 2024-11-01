@@ -12,9 +12,8 @@
 
 .hero-bar {
   max-width: 60em;
-  margin: 0 auto;
-  margin-top: 10em;
-  margin-bottom: 10em;
+  margin-top:5em;
+  margin-bottom: 5em;
   text-align: center;
 }
 
@@ -27,7 +26,7 @@
 
 .hero-sub-header {
   text-align: justify;
-  margin-right: -60%;
+  padding: 1rem
 }
 
 .diagonal-box {
@@ -178,81 +177,53 @@
   font-size: 30px;
 }
 
-
-/* Burger Menu Stuff  */
-.animated-icon2 {
-  width: 30px;
-  height: 20px;
-  position: relative;
-  margin: 0px;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  cursor: pointer;
+/* mobile */
+@media screen and (max-width: 768px) {
+  .nav-bar {
+    font-size: 0.7rem;
+    width: 100%;
+    text-align: end;
+  }
+  #header-title {
+    font-size: 1rem;
+  }
+  .hero-sub-header {
+    padding: 0 auto;
+    font-size: 1rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .hero-bar {
+    max-width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
+  }
+  .hero-header {
+    font-size:2rem;
+    text-align: center;
+    margin: 0.2rem;
+  }
+  .recent-projects {
+    margin: 0 auto;
+    padding: 1.5rem
+  }
+  .recent-projects-title {
+    font-size: 1.8rem;
+  }
+  .content {
+    width: 100%;
+  }
 }
 
-.animated-icon2 span {
-  display: block;
-  position: absolute;
-  height: 3px;
-  width: 100%;
-  border-radius: 9px;
-  opacity: 1;
-  left: 0;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  -moz-transition: .25s ease-in-out;
-  -o-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
+
+
+
+
+.recent-project-image {
+ padding: 1rem;
 }
 
-.animated-icon2 span {
-  background: #e3f2fd;
-}
 
-.animated-icon2 span:nth-child(1) {
-  top: 0px;
-}
-
-.animated-icon2 span:nth-child(2),
-.animated-icon2 span:nth-child(3) {
-  top: 10px;
-}
-
-.animated-icon2 span:nth-child(4) {
-  top: 20px;
-}
-
-.animated-icon2.open span:nth-child(1) {
-  top: 11px;
-  width: 0%;
-  left: 50%;
-}
-
-.animated-icon2.open span:nth-child(2) {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.animated-icon2.open span:nth-child(3) {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
-.animated-icon2.open span:nth-child(4) {
-  top: 11px;
-  width: 0%;
-  left: 50%;
-}

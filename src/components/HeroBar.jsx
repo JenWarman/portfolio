@@ -10,18 +10,14 @@ function HeroBar() {
     <div className="content">
     <Container className="hero-bar">
       <Row>
-      <Col xs={4} md={2} >
+      <Col xs={6} md={3}>
           <h1 id='designer' className='hero-header'>Designer</h1>
           <h5 className='hero-sub-header'>UI/UX design for engaging and functional digital experiences. </h5>
         </Col>
-        <Col></Col>
-        <Col></Col>
-        <Col></Col>
-        <Col className='profile-image' xs={8} md={6}>
+        <Col className='profile-image' xs={7} md={6}>
           <Image src="../profile.jpg" rounded fluid/>
         </Col>
-        <Col></Col>
-        <Col id='developer' xs={4} md={2}>
+        <Col id='developer'xs={6} md={3}>
           <h1 className='hero-header'>Developer</h1>
           <h5 className='hero-sub-header'>Frontend web development with solid and scaleable code. </h5>
         </Col>
