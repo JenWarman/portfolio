@@ -7,20 +7,20 @@ function Skills() {
 
   return (
     <Container className='skills'>
-      <Row className='justify-content-center'>
-        <Col xs={4} md={2}>
+      <Row className='skills-row'>
+        <Col xs={2} md={2}>
         <div className='skills-circle' id='figma'>Figma</div>
         </Col>
-        <Col xs={4} md={2}>
+        <Col xs={2} md={2}>
           <div className='skills-circle' id='adobe'>Adobe Creative Suite</div>
         </Col>
-        <Col xs={4} md={2}>
+        <Col xs={2} md={2}>
           <div className='skills-circle' id='javascript'>JavaScript</div>
         </Col>
-        <Col xs={4} md={2} >
+        <Col xs={2} md={2} >
           <div className='skills-circle' id='html'>HTML</div>
         </Col>
-        <Col xs={4} md={2}>
+        <Col xs={2} md={2}>
           <div className='skills-circle' id='css'>CSS</div>
         </Col>
       </Row>

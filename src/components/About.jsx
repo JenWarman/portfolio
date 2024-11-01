@@ -6,8 +6,8 @@ import Row from "react-bootstrap/Row";
 function About() {
   return (
     <Container className="about-section">
-      <Row>
-        <Col xs={7} md={5}>
+      <Row className="about-row">
+        <Col xs={10} md={5}>
           <h1 className="about-title">About Me</h1>
           <h4 className="about-text">
             Hi, I’m Jen, a UI/UX designer currently based in Nottingham, UK and
@@ -25,7 +25,7 @@ function About() {
             digital design solutions.
           </h4>
         </Col>
-        <Col xs={11} md={7}>
+        <Col xs={10} md={7}>
           <Image src="../profile.jpg" rounded fluid />
         </Col>
       </Row>
