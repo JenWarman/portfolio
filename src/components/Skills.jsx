@@ -23,7 +23,10 @@ function Skills() {
         <Col xs={2} md={2}>
           <div className='skills-circle' id='css'>CSS</div>
         </Col>
-      </Row>
+        <Col className='skills-image'>
+        <Image src='../SkillsImage.png'></Image>
+        </Col>
+      </Row>   
     </Container>
   );
 }

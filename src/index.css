@@ -264,15 +264,14 @@
   .skills {
     margin: 0 auto;
   }
-  .skills-row {
-    justify-content: center; 
-  }
-
   .skills-circle {
-    border: solid #ffff 2px;
-    width: 100px;
-    height: 100px;
-    font-size: 1rem;
-    text-align: center;
+    display: none
+  } 
+  .skills-image {
+    display: block
   }
+}
+
+.skills-image {
+  display: none;
 }
