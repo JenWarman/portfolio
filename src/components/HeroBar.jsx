@@ -12,7 +12,7 @@ function HeroBar() {
       <Row>
       <Col xs={4} md={2} >
           <h1 id='designer' className='hero-header'>Designer</h1>
-          <h5 className='hero-sub-header'>ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor elit odio, nec dapibus orci malesuada a. Ut gravida, lorem eget mattis porta, ex enim condimentum erat, ac lacinia turpis nibh at ipsum.</h5>
+          <h5 className='hero-sub-header'>UI/UX design for engaging and functional digital experiences. </h5>
         </Col>
         <Col></Col>
         <Col></Col>
@@ -23,7 +23,7 @@ function HeroBar() {
         <Col></Col>
         <Col id='developer' xs={4} md={2}>
           <h1 className='hero-header'>Developer</h1>
-          <h5 className='hero-sub-header'>ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor elit odio, nec dapibus orci malesuada a. </h5>
+          <h5 className='hero-sub-header'>Frontend web development with solid and scaleable code. </h5>
         </Col>
       </Row>
     </Container>
