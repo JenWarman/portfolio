@@ -9,24 +9,31 @@
   position: relative;
   z-index: 100;
 }
-
+.hero-row.row {
+  justify-content: center;
+}
 .hero-bar {
-  max-width: 60em;
   margin-top:5em;
   margin-bottom: 5em;
-  text-align: center;
 }
 
 .hero-header {
   font-weight:bold;
   font-size:80px;
-  text-align: center;
-  margin-top: 20rem;
+  margin-top: 10rem;
+}
+#designer {
+  text-align: left;
 }
 
-.hero-sub-header {
+#developer {
+  color: #ffff;
+  text-align: end;
+  padding-left: 8rem
+}
+.designer-hero-sub-header {
   text-align: justify;
-  padding: 1rem
+  padding-right: 8rem;
 }
 
 .diagonal-box {
@@ -46,10 +53,6 @@
   z-index: 1;
 }
 
-/* #developer {
-  color: #ffff
-} */
-
 .recent-projects {
   margin: 10rem;
   padding: 3rem;
@@ -64,7 +67,6 @@
   font-weight: 600;
   font-size: 40px;
 }
-
 
 .about-section {
   max-width: 60em;
@@ -190,7 +192,7 @@
 }
 
 /* mobile */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1098px) {
   .nav-bar {
     font-size: 0.7rem;
     width: 100%;
@@ -222,6 +224,7 @@
     margin-bottom: 1.5rem;
     font-weight: bold;
     font-size: 2rem;
+    text-align: center;
   }
   .media-hero-sub-header {
     display: block;
@@ -244,7 +247,6 @@
     position:absolute;
     width: 100vw;
     z-index: 1;
-    /* display: none; */
   }
   .about-section {
     max-width: 100vw;
@@ -277,9 +279,23 @@
    }
    .recent-projects-title {
     margin: 0 auto;
-    padding-left: 1.5rem;
-    padding-bottom: 1rem;
+    padding-left: 0 auto;
+    padding-bottom: 0.5rem;
     padding-top: 0.5rem;
+    font-size: 1.2rem;
+   }
+   .recent-projects-text {
+    font-size: 0.8rem;
+    text-align: justify;
+   }
+   .recent-projects-button.btn.btn-outline-dark {
+    font-size: 0.8rem;
+   }
+   .UIUX-projects-title {
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    font-weight: bold;
+    font-size: 1.4rem;
    }
    .project-info.row {
     margin: 1rem;
@@ -340,4 +356,57 @@
 
 .skills-image {
   display: none;
+}
+
+
+/* Animation */
+.slide-right {
+	-webkit-animation: slide-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.6 both;
+	        animation: slide-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.6 both;
+}
+ @-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+}
+
+
+.slide-left {
+	-webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.6 both;
+	        animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.6 both;
+}
+ @-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
 }

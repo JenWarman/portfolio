@@ -7,8 +7,8 @@ import Navbar from 'react-bootstrap/Navbar';
 function Header() {
 
     return (
-      <>
-        <Navbar bg="dark" data-bs-theme="dark">
+      <div className=''>
+        <Navbar  bg="dark" data-bs-theme="dark">
           <Container fluid>
             <Navbar.Brand href="/" id='header-title'>Jen Warman</Navbar.Brand>
             <Nav className="ms-auto nav-bar">
@@ -18,7 +18,7 @@ function Header() {
             </Nav>
           </Container>
         </Navbar>
-        </>
+        </div>
     )
 }
 

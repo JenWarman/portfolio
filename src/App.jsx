@@ -9,7 +9,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import DesignProjects from './components/DesignProjects';
 import DeveloperProjects from './components/DeveloperProjects';
-
+import 'animate.css';
 function App() {
  
 

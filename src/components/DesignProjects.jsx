@@ -9,7 +9,7 @@ function DesignProjects() {
         <Row>
             <Col>
             <h1 className="project-header">Projects</h1>
-            <h2 className='recent-projects-title'>UI/UX Design</h2>
+            <h2 className='UIUX-projects-title'>UI/UX Design</h2>
             </Col>
         </Row>
         
