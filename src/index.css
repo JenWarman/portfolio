@@ -297,6 +297,45 @@
    .project-button.btn.btn-outline-dark {
     font-size: 0.8rem;
    }
+   .developer-project-header {
+    font-size: 4rem;
+    margin: 0 auto;
+    padding-right: 1.5rem;
+   }
+   .developer-recent-projects-title {
+    margin: 0 auto;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    font-size: 1.4rem;
+   }
+   .developer-projects-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    text-align: end;
+   }
+   .developer-projects-text {
+    font-size: 0.8rem;
+   }
+   .developer-button.btn.btn-outline-dark {
+    font-size: 0.8rem;
+   }
+   .design-projects {
+    margin: 2rem
+   }
+   .divider {
+    width: 100%;
+    margin: 0 auto;
+   }
+   .bottom-diagonal-box {
+    border-right: 100vw solid transparent;
+    border-bottom: 80vh solid #2e77ff;
+    margin-top:  80vh;
+    position: absolute;
+    width: 100vw;
+    z-index: 1;
+  }
 }
 
 .skills-image {
