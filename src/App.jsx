@@ -15,6 +15,8 @@ function App() {
 
   return (
     <div className={styles.App}>
+      <div className='diagonal-box'></div> 
+      <div className="content">
       <Header/>
         <Routes>
           <Route path='/' element={<><HeroBar /><RecentProjects/></>}></Route>
@@ -22,6 +24,7 @@ function App() {
             <Route path='/projects' element={<><DesignProjects /><DeveloperProjects/></>}></Route>
         </Routes> 
       <Footer />
+    </div>
     </div>
   )
 }

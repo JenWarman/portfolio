@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function Header() {
 
     return (
-      <div className=''>
+      <div className='scale-in-ver-top'>
         <Navbar  bg="dark" data-bs-theme="dark">
           <Container fluid>
             <Navbar.Brand href="/" id='header-title'>Jen Warman</Navbar.Brand>

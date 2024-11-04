@@ -3,8 +3,8 @@ import { Col, Container, Row, Button, Image } from "react-bootstrap";
 function DesignProjects() {
     return (
         <>
-        <div className='diagonal-box'></div> 
-        <div className="content">
+        {/* <div className='diagonal-box'></div> 
+        <div className="content"> */}
         <Container className="design-projects">
         <Row>
             <Col>
@@ -69,7 +69,7 @@ function DesignProjects() {
         <div className="divider"></div></Col>
       </Row>
       </Container>
-        </div>
+        {/* </div> */}
         </>
     )
 }
