@@ -270,6 +270,33 @@
   /* .skills-image {
     display:;
   } */
+   .project-header {
+    font-size: 4rem;
+    margin: 0 auto;
+    padding-left: 1.5rem
+   }
+   .recent-projects-title {
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+   }
+   .project-info.row {
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    justify-content: center;
+   }
+   .projects-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+   }
+   .projects-text {
+    font-size: 0.8rem;
+   }
+   .project-button.btn.btn-outline-dark {
+    font-size: 0.8rem;
+   }
 }
 
 .skills-image {
