@@ -40,8 +40,8 @@
 .bottom-diagonal-box {
   border-right: 100vw solid transparent;
   border-bottom: 80vh solid #2e77ff;
-  margin-top: 30vw;
-  position:absolute;
+  margin-top:  115vh;
+  position: absolute;
   width: 100vw;
   z-index: 1;
 }
@@ -267,9 +267,9 @@
   .skills-circle {
     display: none
   } 
-  .skills-image {
-    display: block
-  }
+  /* .skills-image {
+    display:;
+  } */
 }
 
 .skills-image {
