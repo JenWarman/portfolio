@@ -8,6 +8,7 @@
 .content {
   position: relative;
   z-index: 100;
+  height: 100vh
 }
 .hero-row.row {
   justify-content: center;
@@ -74,7 +75,9 @@
   margin-top: 10em;
   margin-bottom: 10em;
 }
-
+.about-row.row {
+  justify-content: center;
+}
 .about-title {
   font-weight: bold;
   font-size: 80px;
@@ -191,6 +194,13 @@
   display: none;
 }
 
+.footer {
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
 /* mobile */
 @media screen and (max-width: 1098px) {
   .nav-bar {
@@ -233,6 +243,12 @@
   .recent-projects {
     margin: 0 auto;
     padding: 1.5rem;
+  }
+  .designer-hero-sub-header {
+    display: none;
+  }
+  .developer-hero-sub-header {
+    display: none;
   }
   .recent-projects-title {
     font-size: 1.4rem;

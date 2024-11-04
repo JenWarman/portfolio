@@ -4,7 +4,7 @@ import { Image } from 'react-bootstrap';
 
 function Footer() {
   return (
-    <>
+    <div className='footer'>
     <Navbar bg="dark" data-bs-theme="dark">
       <Nav  activeKey="/home">
         <Nav.Item>
@@ -21,7 +21,7 @@ function Footer() {
         </Nav.Item>
       </Nav>
       </Navbar>
-    </>
+    </div>
   );
 }
 
