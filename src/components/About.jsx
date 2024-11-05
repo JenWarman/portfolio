@@ -7,7 +7,7 @@ function About() {
   return (
     <Container className="about-section">
       <Row className="about-row">
-        <Col xs={8} md={4}>
+        <Col className='about-text-section' xs={8} md={5}>
           <h1 className="about-title">About Me</h1>
           <h5 className="about-text">
             Hi, I’m Jen, a UI/UX designer currently based in Nottingham, UK and

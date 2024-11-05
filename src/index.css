@@ -69,14 +69,13 @@
 }
 
 .about-section {
-  max-width: 60em;
-  margin: 0 auto;
   margin-top: 10em;
   margin-bottom: 10em;
 }
 .about-row.row {
   justify-content: center;
 }
+
 .about-title {
   font-weight: bold;
   font-size: 80px;
@@ -94,16 +93,19 @@
   font-weight: 600 ;
 }
 
-.skills-row {
+.skills-row.row {
   justify-content: center;
+  margin: auto;
 }
+
 .skills-image {
   display: none
 }
+
 .skills-circle {
   border: solid #ffff 5px;
-  width: 250px;
-  height: 250px;
+  width: 230px;
+  height: 230px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -271,19 +273,50 @@
     font-size: 1rem;
     margin-bottom: 2rem;
   }
-  .skills-row {
-    margin: 0 auto;
-  }
+  
   .skills-circle {
-    display: none
+    border: solid #ffff 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    font-size: 30px;
+    text-align: center;
   } 
-  .skills-image-row {
-    
+ 
+  .skills.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    font-weight: 1rem ;
   }
+  
+  .skills-row.row {
+    justify-content: center;
+    max-width: 80vw;
+    margin: 0.5rem;
+  }
+  
   .skills-image {
-    display: block;
-    max-width: 240px;
+    display: none
   }
+  
+  .skills-circle {
+    border: solid #ffff 5px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    font-size: 1rem;
+    text-align: center;
+  }
+
    .project-header {
     font-size: 4rem;
     margin: 0 auto;
