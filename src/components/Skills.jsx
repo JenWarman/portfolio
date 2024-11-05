@@ -24,7 +24,7 @@ function Skills() {
           <div className='skills-circle' id='css'>CSS</div>
         </Col>
         </Row>
-        <Row>
+        <Row classname='skills-image-row'>
         <Col className='skills-image'>
         <Image  src='../SkillsImage.png'></Image>
         </Col>

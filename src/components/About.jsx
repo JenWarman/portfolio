@@ -9,7 +9,7 @@ function About() {
       <Row className="about-row">
         <Col xs={8} md={4}>
           <h1 className="about-title">About Me</h1>
-          <h4 className="about-text">
+          <h5 className="about-text">
             Hi, I’m Jen, a UI/UX designer currently based in Nottingham, UK and
             have been designing for over 13 years.<br></br>
             <br></br>With a background in surface pattern design I more recently
@@ -23,7 +23,7 @@ function About() {
             <br></br>Now I continue to expand my design knowledge and utilise my
             improved technical and interpersonal skills to create engaging
             digital design solutions.
-          </h4>
+          </h5>
         </Col>
         <Col xs={8} md={5}>
           <Image src="../profile.jpg" rounded fluid />
