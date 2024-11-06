@@ -56,7 +56,6 @@
 .recent-projects {
   margin: 10rem;
   padding: 3rem;
-  padding-top: 10rem;
 }
 
 .recent-project-image {
@@ -298,10 +297,6 @@
     justify-content: center;
     max-width: 80vw;
     margin: 0.5rem;
-  }
-  
-  .skills-image {
-    display: none
   }
   
   .skills-circle {
