@@ -6,6 +6,8 @@ import Row from 'react-bootstrap/Row';
 function HeroBar() {
   return (
       <>
+      {/* <div className='diagonal-box'></div> 
+      <div className="content"> */}
     <Container className="hero-bar">
       <Row className='hero-row'>
       <Col className='slide-right' xs={6} md={4}>
@@ -31,6 +33,7 @@ function HeroBar() {
         </Row>
       </Row>
     </Container>
+    {/* </div> */}
     </>
   );
 }

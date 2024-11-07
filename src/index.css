@@ -81,9 +81,7 @@
 .recent-projects-link :hover {
   color: #2C76FF;
 }
-.recent-projects-link :hover {
-  color: #2C76FF;
-}
+
 .about-section {
   margin-top: 10em;
   margin-bottom: 10em;
@@ -213,6 +211,7 @@
 
 .container {
  padding-top: 5rem;
+ padding-bottom: 5rem
 }
 .byte-size-title {
  font-weight: bold;
@@ -223,13 +222,39 @@
 .byte-size-intro {
   margin-left: 2rem;
   margin-right: 2rem;
+  margin-bottom: 2rem;
   text-align: justify;
 }
 .byte-size-sub-header {
   font-weight: bold;
+  font-size: 40px;
   margin-left: 2rem;
 }
+.byte-size-list {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: justify;
+}
 
+.wireframe-container {
+  background-color: #2C76FF;
+}
+#wireframe-header {
+  font-weight: bold;
+  color: #ffff;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 50px;
+}
+
+.wireframe-image {
+  width: 400px;
+}
+.inner-wireframe-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 
 /* mobile */
 @media screen and (max-width: 1098px) {
