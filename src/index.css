@@ -197,6 +197,10 @@
   display: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
 /* mobile */
 @media screen and (max-width: 1098px) {
   .nav-bar {
