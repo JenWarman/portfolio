@@ -39,7 +39,7 @@ function ByteSizeHabits() {
           </Row>
           </Container>
 
-          <Container className='wireframe-container' fluid>
+          <Container className='wireframe-container' fluid bg="dark">
             <Container className="inner-wireframe-container">
             <Row>
               <h2 id='wireframe-header'>Wireframes</h2>
