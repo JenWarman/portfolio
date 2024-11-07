@@ -1,27 +1,32 @@
-import { Container, Col, Button, Image } from "react-bootstrap";
+import { Container, Row, Col, Button, Image } from "react-bootstrap";
 
 function ByteSizeHabits() {
     return (
         <>
-        <h1>Hey there</h1>
-        {/* <Container>
-        <Row className="project-info">
-      <Col xs={6} md={3}>
-          <h2 className='projects-title'>Project Name</h2>
-          <p className='projects-text'>ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor elit odio, nec dapibus orci malesuada a. Ut gravida, lorem eget mattis porta, ex enim condimentum erat, ac lacinia turpis nibh at ipsum.</p>
-          <Button className='project-button' variant="outline-dark">Project</Button>
-        </Col>
-        <Col className='project-image' xs={6} md={3}>
-          <Image src="../iPhone.png" rounded fluid/>
-        </Col>
-        <Col className='project-image' xs={6} md={3}>
-          <Image src="../iPhone.png"rounded fluid/>
-        </Col>
-        <Col className='project-image' xs={6} md={3}>
-          <Image src="../iPhone.png" rounded fluid/>
-        </Col>
-      </Row>
-      </Container> */}
+        <Container classname='byte-size-habits'>
+          <Row>
+            <Col className='byte-size-col'xs={4} md={4}>
+            <h1 className="byte-size-title">Byte Size Habits</h1>
+            <p className="byte-size-intro">Byte Size Habits is a modern web application designed to help users track their daily habits and personal goals, with a playful, Tamagotchi-style interface. Created using React, Next.js, and styled with TailwindCSS and DaisyUI, the app allows users to set goals, track progress, and interact with a cute, tech-themed character.</p>
+            <h3 className="byte-size-sub-header">Project</h3>
+            <p className="byte-size-intro">Final group project for Northcoders bootcamp.</p>
+            <h3 className="byte-size-sub-header">Role</h3>
+            <p className="byte-size-intro">Full stack software developer</p>
+            </Col>
+            <Col xs={8} md={8}>
+            <Image classname='byte-size-group-image'src='../ByteSizeGroupCropped.png'fluid />
+            </Col>
+          </Row>
+          <Row>
+            <Col><h1 className="byte-size-sub-header">Objectives</h1>
+            <ul>
+              <li className="byte-size-intro"></li>
+              <li className="byte-size-intro"></li>
+              <li className="byte-size-intro"></li>
+              </ul>
+            </Col>
+          </Row>
+        </Container>
   </>
     )
 }

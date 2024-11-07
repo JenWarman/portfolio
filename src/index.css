@@ -64,12 +64,26 @@
   margin-top: 5rem;
   padding-right: 1rem;
 }
+
+.recent-projects-title :hover{
+  color: #2C76FF;
+}
 .recent-projects-text {
   padding-right: 1rem;
   padding-top: 0.5rem;
   text-align: justify;
 }
+.recent-projects-link {
+  text-decoration: none;
+  color: black;
+}
 
+.recent-projects-link :hover {
+  color: #2C76FF;
+}
+.recent-projects-link :hover {
+  color: #2C76FF;
+}
 .about-section {
   margin-top: 10em;
   margin-bottom: 10em;
@@ -196,14 +210,27 @@
 .media-hero-sub-header {
   display: none;
 }
-.recent-projects-link {
-  text-decoration: none;
-  color: black;
+
+.container {
+ padding-top: 5rem;
+}
+.byte-size-title {
+ font-weight: bold;
+ font-size: 60px;
+ padding-top: 1rem;
+ margin: 2rem;
+}
+.byte-size-intro {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: justify;
+}
+.byte-size-sub-header {
+  font-weight: bold;
+  margin-left: 2rem;
 }
 
-.recent-projects-link :hover {
-  color: #2C76FF;
-}
+
 /* mobile */
 @media screen and (max-width: 1098px) {
   .nav-bar {
