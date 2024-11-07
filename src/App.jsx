@@ -24,7 +24,7 @@ function App() {
           <Route path='/' element={<><HeroBar /><RecentProjects/></>}></Route>
             <Route path='/about' element={<><About /><Skills/></>}></Route>
             <Route path='/projects' element={<><DesignProjects /><DeveloperProjects/></>}></Route>
-            {/* <Route path='/byte-size-habits' element={<ByteSizeHabits></ByteSizeHabits>}></Route> */}
+            <Route path='/byte-size-habits' element={<ByteSizeHabits></ByteSizeHabits>}></Route>
         </Routes> 
       <Footer />
     </div>

@@ -62,7 +62,7 @@
   font-weight: 600;
   font-size: 40px;
   margin-top: 5rem;
-  padding-right: 1rem
+  padding-right: 1rem;
 }
 .recent-projects-text {
   padding-right: 1rem;
@@ -196,11 +196,14 @@
 .media-hero-sub-header {
   display: none;
 }
-
-.link {
+.recent-projects-link {
   text-decoration: none;
+  color: black;
 }
 
+.recent-projects-link :hover {
+  color: #2C76FF;
+}
 /* mobile */
 @media screen and (max-width: 1098px) {
   .nav-bar {
