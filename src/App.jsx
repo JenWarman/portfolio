@@ -10,6 +10,7 @@ import Skills from './components/Skills';
 import DesignProjects from './components/DesignProjects';
 import DeveloperProjects from './components/DeveloperProjects';
 import 'animate.css';
+import ByteSizeHabits from './components/ByteSizeHabits';
 function App() {
  
 
@@ -22,6 +23,7 @@ function App() {
           <Route path='/' element={<><HeroBar /><RecentProjects/></>}></Route>
             <Route path='/about' element={<><About /><Skills/></>}></Route>
             <Route path='/projects' element={<><DesignProjects /><DeveloperProjects/></>}></Route>
+            <Route path='/byte-size-habits' element={<ByteSizeHabits></ByteSizeHabits>}></Route>
         </Routes> 
       <Footer />
     </div>
