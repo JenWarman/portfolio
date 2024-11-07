@@ -27,7 +27,7 @@
 }
 
 #developer {
-  color: #ffff;
+  /* color: #ffff; */
   text-align: end;
   padding-left: 8rem
 }
@@ -218,6 +218,10 @@
  font-size: 60px;
  padding-top: 1rem;
  margin: 2rem;
+}
+
+.byte-size-title :hover{
+  color: #2C76FF;
 }
 .byte-size-intro {
   margin-left: 2rem;
