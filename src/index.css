@@ -324,10 +324,13 @@
   .media-hero-sub-header {
     display: block;
     text-align: justify;
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem
   }
   .recent-projects {
     margin: 0 auto;
-    padding: 1.5rem;
+    padding: 1rem;
   }
   .designer-hero-sub-header {
     display: none;
@@ -340,7 +343,6 @@
   }
   .recent-projects-row {
     justify-content: center;
-    
   }
   .diagonal-box {
     border-left: 100vw solid transparent;
@@ -365,7 +367,6 @@
     font-size: 1rem;
     margin-bottom: 2rem;
   }
-  
   .skills-circle {
     border: solid #ffff 5px;
     width: 150px;
@@ -387,7 +388,6 @@
     justify-content: center;
     font-weight: 1rem ;
   }
-  
   .skills-row.row {
     justify-content: center;
     max-width: 80vw;
@@ -399,7 +399,6 @@
   #development-skills-title{
     padding-top: 1rem
   }
-  
   .skills-circle {
     border: solid #ffff 5px;
     width: 120px;
@@ -412,7 +411,6 @@
     font-size: 1rem;
     text-align: center;
   }
-
    .project-header {
     font-size: 4rem;
     margin: 0 auto;
@@ -454,7 +452,6 @@
    .project-button.btn.btn-outline-dark {
     font-size: 0.8rem;
    }
-   
    .developer-project-header {
     font-size: 4rem;
     margin: 0 auto;
@@ -486,6 +483,15 @@
     width: 100%;
     margin: 0 auto;
    }
+   .project-icon {
+    height: 1.5rem;
+    padding-left: 1rem;
+   }
+  .developer-project-icon {
+    height: 1.5rem;
+    float: right;
+    padding-right: 1rem;
+  }
    /* .bottom-diagonal-box {
     border-right: 100vw solid transparent;
     border-bottom: 80vh solid #2e77ff;
@@ -548,7 +554,7 @@
     padding: 2rem;
     height: 30vh
   } 
-  
+ 
 }
 
 /* Animation */

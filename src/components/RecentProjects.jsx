@@ -9,7 +9,7 @@ function RecentProjects() {
   return (
     <Container className="recent-projects">
       <Row className='recent-projects-row'>
-      <Col xs={5} md={3}>
+      <Col xs={6} md={3}>
          <h2 className='recent-projects-title'><Link className='recent-projects-link' to='/projects'>Recent Projects</Link></h2>
           <p className='recent-projects-text'><Link className='recent-projects-link' to='/byte-size-habits'><strong>Byte Size Habits</strong></Link> is a modern web application designed to help users track their daily habits and personal goals, with a playful, Tamagotchi-style interface. Created using React, Next.js, and styled with TailwindCSS and DaisyUI, the app allows users to set goals, track progress, and interact with a cute, tech-themed character.</p>
           <Link to='/byte-size-habits'><Button className='recent-projects-button' variant="outline-dark">Project</Button></Link>
