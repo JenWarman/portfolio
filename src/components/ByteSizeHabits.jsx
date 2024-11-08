@@ -23,31 +23,29 @@ function ByteSizeHabits() {
             <h5 className="byte-size-intro">Final group project for <Link className='recent-projects-link' to='https://northcoders.com/project-phase/byte-size-habits'><strong>Northcoders</strong></Link> bootcamp.</h5>
             <h2 className="byte-size-sub-header">Role</h2>
             <h5 className="byte-size-intro">Full stack software developer</h5>
-            
-            
             </Col>
-            <Col xs={5} md={6}><h2 className="byte-size-sub-header">Tech Stack</h2>
+            <Col xs={5} md={5}><h2 className="byte-size-sub-header">Tech Stack</h2>
             <ul>
-              <li className="byte-size-list"><h5 className="byte-size-list">JavaScript</h5></li>
-              <li className="byte-size-list"><h5 className="byte-size-list">Next.js</h5></li>
-              <li className="byte-size-list"><h5 className="byte-size-list">Supabase</h5></li>
-              <li className="byte-size-list"><h5 className="byte-size-list">Tailwind CSS</h5></li>
-              <li className="byte-size-list"><h5 className="byte-size-list">Daisy UI</h5></li>
-              <li className="byte-size-list"><h5 className="byte-size-list">Chart.js</h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list"><span>JavaScript</span></h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list"><span>Next.js</span></h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list"><span>Supabase</span></h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list"><span>Tailwind CSS</span></h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list"><span>Daisy UI</span></h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list"><span>Chart.js</span></h5></li>
             </ul>
             </Col>
           </Row>
           <Row className='byte-size-row'>
-            <Col>
+            <Col xs={10} md={12}className="byte-size-objectives">
             <h2 className="byte-size-sub-header">Objectives</h2>
           <ul>
-              <li className="byte-size-list"><h5 className="byte-size-list"><strong>Set personal goals.</strong> The user can select a programming language to learn and set a daily target to study, for example 30 minutes per day. </h5></li>
-              <li className="byte-size-list"><h5 className="byte-size-list"><strong>Motivate the user.</strong> Nibbler's health decreases over time and the only way to restore him to full charge is for the user to complete their daily learning objective.
-              </h5></li>
-              <li className="byte-size-list"><h5 className="byte-size-list"><strong>Reward the user. </strong> When the user completes a study session they are awarded coins in addition to restoring Nibbler’s health. These coins can be redeemed in store to treat your virtual pet.
-              </h5></li>
-              <li className="byte-size-list"><h5 className="byte-size-list"><strong> Track progress.</strong>The user can track their progress and compare their weekly or monthly streak.
-              </h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list"><span><strong>Set personal goals.</strong> The user can select a programming language to learn and set a daily target to study, for example 30 minutes per day. </span></h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list"><span><strong>Motivate the user.</strong> Nibbler's health decreases over time and the only way to restore him to full charge is for the user to complete their daily learning objective.
+              </span></h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list"><span><strong>Reward the user. </strong> When the user completes a study session they are awarded coins in addition to restoring Nibbler’s health. These coins can be redeemed in store to treat your virtual pet.
+              </span></h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list"><span><strong> Track progress.</strong>The user can track their progress and compare their weekly or monthly streak.
+              </span></h5></li>
             </ul>
             </Col>
           </Row>

@@ -1,4 +1,5 @@
 import { Col, Container, Row, Button, Image } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function DeveloperProjects() {
     return (
@@ -28,6 +29,8 @@ function DeveloperProjects() {
           <h2 className='developer-projects-title'>Project Name</h2>
           <p className='developer-projects-text'>ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor elit odio, nec dapibus orci malesuada a. Ut gravida, lorem eget mattis porta, ex enim condimentum erat, ac lacinia turpis nibh at ipsum.</p>
           <Button className='developer-button' variant="outline-dark">Project</Button>
+          <Link><Image className="developer-project-icon" src='../domain.png'/></Link>
+        <Link><Image className="developer-project-icon" src='../github.png'/></Link>
         </Col>
       </Row>
 
@@ -46,6 +49,8 @@ function DeveloperProjects() {
           <h2 className='developer-projects-title'>Project Name</h2>
           <p className='developer-projects-text'>ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor elit odio, nec dapibus orci malesuada a. Ut gravida, lorem eget mattis porta, ex enim condimentum erat, ac lacinia turpis nibh at ipsum.</p>
           <Button className='developer-button' variant="outline-dark">Project</Button>
+          <Link><Image className="developer-project-icon" src='../domain.png'/></Link>
+        <Link><Image className="developer-project-icon" src='../github.png'/></Link>
         </Col>
       </Row>
       </Container>

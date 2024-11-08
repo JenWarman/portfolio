@@ -176,6 +176,15 @@
   margin-top: 1rem;
   background-color: #2C76FF;
 }
+.project-icon {
+  height: 2rem;
+  padding-left: 2rem;
+ }
+.developer-project-icon {
+  height: 2rem;
+  float: right;
+  padding-right: 2rem;
+}
 
 .developer-project-header {
   font-weight:bold;
@@ -429,6 +438,7 @@
    .project-button.btn.btn-outline-dark {
     font-size: 0.8rem;
    }
+   
    .developer-project-header {
     font-size: 4rem;
     margin: 0 auto;
@@ -492,10 +502,18 @@
     margin-left: 1rem;
   }
   .byte-size-list {
+    line-height: 0.8rem;
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: justify;
     font-size: 0.8rem;
+  }
+  span {
+    margin-left: -1rem;
+  }
+  .byte-size-objectives {
+    margin-left: 1rem;
+    margin-right: 1rem
   }
   #wireframe-header {
     font-size: 1.2rem;
