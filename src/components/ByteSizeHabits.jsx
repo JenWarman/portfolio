@@ -8,7 +8,10 @@ function ByteSizeHabits() {
           <Row className='byte-size-row'>
             <Col className='byte-size-col'xs={10} md={4}>
             <h1 className="byte-size-title"><Link className='recent-projects-link'to='https://byte-size-habits.vercel.app/'>Byte Size Habits</Link></h1>
-            <h5 className="byte-size-intro"><Link className='recent-projects-link' to='https://github.com/DannyGreenan/byte-size-habits'><strong>Byte Size Habits</strong></Link> is a modern web application designed to help users track their daily habits and personal goals, with a playful, Tamagotchi-style interface. <br></br><br></br>Created using React, Next.js, and styled with TailwindCSS and DaisyUI, the app allows users to set goals, track progress, and interact with a cute, tech-themed character.</h5>
+            <h5 className="byte-size-intro"><Link className='recent-projects-link' to='https://github.com/DannyGreenan/byte-size-habits'><strong>Byte Size Habits</strong></Link> is a habit tracker web application specifically designed to help users learn how to code and improve their programming skills.<br></br>
+<br></br>The user can set personal learning goals, duration to study each day and track their progress all with the help of a Tamagotchi-style digital pet called Nibbler. Nibbler can offer the user useful resources on your chosen topic of study and provide timed sessions to help the user fulfil their daily study target.<br></br>
+<br></br>This application was created using Javascript, React, Next.js, Supabase, Tailwind CSS, Daisy UI and Chart.js. 
+</h5>
             </Col>
             <Col xs={10} md={8}>
             <Image classname='byte-size-group-image'src='../ByteSizeGroupCropped.png'fluid />
@@ -20,11 +23,8 @@ function ByteSizeHabits() {
             <h5 className="byte-size-intro">Final group project for <Link className='recent-projects-link' to='https://northcoders.com/project-phase/byte-size-habits'><strong>Northcoders</strong></Link> bootcamp.</h5>
             <h2 className="byte-size-sub-header">Role</h2>
             <h5 className="byte-size-intro">Full stack software developer</h5>
-            <h2 className="byte-size-sub-header">Objectives</h2>
-            <ul>
-              <li className="byte-size-list"><h5></h5></li>
-              <li className="byte-size-list"><h5></h5></li>
-            </ul>
+            
+            
             </Col>
             <Col xs={5} md={6}><h2 className="byte-size-sub-header">Tech Stack</h2>
             <ul>
@@ -34,6 +34,20 @@ function ByteSizeHabits() {
               <li className="byte-size-list"><h5 className="byte-size-list">Tailwind CSS</h5></li>
               <li className="byte-size-list"><h5 className="byte-size-list">Daisy UI</h5></li>
               <li className="byte-size-list"><h5 className="byte-size-list">Chart.js</h5></li>
+            </ul>
+            </Col>
+          </Row>
+          <Row className='byte-size-row'>
+            <Col>
+            <h2 className="byte-size-sub-header">Objectives</h2>
+          <ul>
+              <li className="byte-size-list"><h5 className="byte-size-list"><strong>Set personal goals.</strong> The user can select a programming language to learn and set a daily target to study, for example 30 minutes per day. </h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list"><strong>Motivate the user.</strong> Nibbler's health decreases over time and the only way to restore him to full charge is for the user to complete their daily learning objective.
+              </h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list"><strong>Reward the user. </strong> When the user completes a study session they are awarded coins in addition to restoring Nibbler’s health. These coins can be redeemed in store to treat your virtual pet.
+              </h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list"><strong> Track progress.</strong>The user can track their progress and compare their weekly or monthly streak.
+              </h5></li>
             </ul>
             </Col>
           </Row>

@@ -259,15 +259,13 @@
   flex-wrap: wrap;
   flex-direction: column;
 }
-.byte-size-wireframe-row {
-  
-}
+
 .youtube-container.container {
   background-color: #ffff;
 }
 .youtube-row {
   justify-content: center;
-  height: 60vh
+  height: 80vh
 }
 /* mobile */
 @media screen and (max-width: 1098px) {
@@ -517,7 +515,7 @@
     height: 30vh
   } 
   
-
+}
 /* Animation */
 .slide-right {
 	-webkit-animation: slide-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.6 both;
