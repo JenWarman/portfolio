@@ -83,8 +83,8 @@
 }
 
 .about-section {
-  margin-top: 10em;
-  margin-bottom: 10em;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 .about-row.row {
   justify-content: center;
@@ -99,10 +99,11 @@
   text-align: justify;
   margin-right: 3rem
 }
-
+.skills.container {
+  padding-top: 0
+}
 .skills {
-  margin-top: 10rem;
-  margin-bottom: 20rem;
+
   justify-content: center;
   font-weight: 600 ;
 }
@@ -110,6 +111,8 @@
 .skills-row.row {
   justify-content: center;
   margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
 }
 
 .skills-image {
@@ -150,7 +153,11 @@
 #css {
   background-color: #77A7FF;
 }
-
+.skills-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
 .design-projects {
   max-width: 60em;
   margin: 0 auto;
@@ -351,6 +358,7 @@
   }
   .about-title {
     font-size: 3rem;
+    text-align: center;
   }
   .about-text {
     margin: 0 auto;
@@ -370,7 +378,9 @@
     font-size: 30px;
     text-align: center;
   } 
- 
+  .skills-title {
+    font-size: 1.8rem;
+  }
   .skills.container {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -382,6 +392,12 @@
     justify-content: center;
     max-width: 80vw;
     margin: 0.5rem;
+    padding: 0.5rem;
+    padding-top: 0;
+    margin-top: 0
+  }
+  #development-skills-title{
+    padding-top: 1rem
   }
   
   .skills-circle {
@@ -534,6 +550,7 @@
   } 
   
 }
+
 /* Animation */
 .slide-right {
 	-webkit-animation: slide-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.6 both;
