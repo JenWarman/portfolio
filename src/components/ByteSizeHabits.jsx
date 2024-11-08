@@ -28,12 +28,12 @@ function ByteSizeHabits() {
             </Col>
             <Col xs={6} md={6}><h2 className="byte-size-sub-header">Tech Stack</h2>
             <ul>
-              <li className="byte-size-list"><h5>JavaScript</h5></li>
-              <li className="byte-size-list"><h5>Next.js</h5></li>
-              <li className="byte-size-list"><h5>Supabase</h5></li>
-              <li className="byte-size-list"><h5>Tailwind CSS</h5></li>
-              <li className="byte-size-list"><h5>Daisy UI</h5></li>
-              <li className="byte-size-list"><h5>Chart.js</h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list">JavaScript</h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list">Next.js</h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list">Supabase</h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list">Tailwind CSS</h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list">Daisy UI</h5></li>
+              <li className="byte-size-list"><h5 className="byte-size-list">Chart.js</h5></li>
             </ul>
             </Col>
           </Row>
@@ -67,9 +67,9 @@ function ByteSizeHabits() {
           </Container>
           </Container> 
           <Container className="youtube-container">
-            <Row>
-              <Col className="youtube-col"><iframe width="560" height="315" src="https://www.youtube.com/embed/WPAtkq1zvKI?si=ie-yvSHupAOpQSYC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></Col>
-            </Row>
+              <Row className="youtube-row">
+                <iframe src="https://www.youtube.com/embed/WPAtkq1zvKI?si=ie-yvSHupAOpQSYC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </Row>
           </Container>
         
   </>
