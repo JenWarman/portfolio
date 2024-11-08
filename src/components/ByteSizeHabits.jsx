@@ -17,7 +17,7 @@ function ByteSizeHabits() {
           <Row>
             <Col xs={6} md={5}>
             <h2 className="byte-size-sub-header">Project</h2>
-            <h5 className="byte-size-intro">Final group project for Northcoders bootcamp.</h5>
+            <h5 className="byte-size-intro">Final group project for <Link className='recent-projects-link' to='https://northcoders.com/project-phase/byte-size-habits'><strong>Northcoders</strong></Link> bootcamp.</h5>
             <h2 className="byte-size-sub-header">Role</h2>
             <h5 className="byte-size-intro">Full stack software developer</h5>
             <h2 className="byte-size-sub-header">Objectives</h2>
@@ -66,6 +66,11 @@ function ByteSizeHabits() {
           </Row>
           </Container>
           </Container> 
+          <Container className="youtube-container">
+            <Row>
+              <Col className="youtube-col"><iframe width="560" height="315" src="https://www.youtube.com/embed/WPAtkq1zvKI?si=ie-yvSHupAOpQSYC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></Col>
+            </Row>
+          </Container>
         
   </>
     )

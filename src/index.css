@@ -259,7 +259,12 @@
   flex-wrap: wrap;
   flex-direction: column;
 }
-
+.youtube-container.container {
+  background-color: #ffff;
+}
+.youtube-col {
+  justify-content: center;
+}
 /* mobile */
 @media screen and (max-width: 1098px) {
   .nav-bar {
