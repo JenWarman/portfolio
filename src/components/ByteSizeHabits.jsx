@@ -48,6 +48,7 @@ function ByteSizeHabits() {
               </span></h5></li>
             </ul>
             </Col>
+            <Row><Image src='../ByteSizeFullScreen.png'/></Row>
           </Row>
           </Container>
 
