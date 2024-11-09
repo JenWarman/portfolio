@@ -36,7 +36,7 @@ function ByteSizeHabits() {
             </Col>
           </Row>
           <Row className='byte-size-row'>
-            <Col xs={10} md={12}className="byte-size-objectives">
+            <Col xs={12} md={12}className="byte-size-objectives">
             <h2 className="byte-size-sub-header">Objectives</h2>
           <ul>
               <li className="byte-size-list"><h5 className="byte-size-list"><span><strong>Set personal goals.</strong> The user can select a programming language to learn and set a daily target to study, for example 30 minutes per day. </span></h5></li>
@@ -48,7 +48,6 @@ function ByteSizeHabits() {
               </span></h5></li>
             </ul>
             </Col>
-            <Row><Image src='../ByteSizeFullScreen.png'/></Row>
           </Row>
           </Container>
 

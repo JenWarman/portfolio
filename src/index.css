@@ -255,7 +255,9 @@
   margin-right: 2rem;
   text-align: justify;
 }
-
+#byte-size-fullscreen {
+  width: 32vw
+}
 .wireframe-container {
   background-color: #212529;
 }
