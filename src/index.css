@@ -8,6 +8,8 @@
 .content {
   position: relative;
   z-index: 100;
+  background: rgb(254,247,222);
+background: radial-gradient(circle, rgba(254,247,222,1) 0%, rgba(218,225,228,1) 58%, rgba(46,119,255,1) 100%);
 }
 .hero-row.row {
   justify-content: center;

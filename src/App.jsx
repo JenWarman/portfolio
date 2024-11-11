@@ -17,8 +17,8 @@ function App() {
  
   return (
     <div className={styles.App}>
-      {/* <div className='diagonal-box'></div> 
-      <div className="content"> */}
+      {/* <div className='diagonal-box'></div>  */}
+       <div className="content"> 
       <Header/>
         <Routes>
           <Route path='/' element={<><HeroBar /><RecentProjects/></>}></Route>
@@ -28,7 +28,7 @@ function App() {
         </Routes> 
       <Footer />
     </div>
-    // </div>
+    </div>
   )
 }
 

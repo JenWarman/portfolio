@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 function DeveloperProjects() {
     return (
         <>
-        <div className='bottom-diagonal-box'></div> 
-        <div className="content">
         <Container className="design-projects">
         <Row>
             <Col>
@@ -54,7 +52,6 @@ function DeveloperProjects() {
         </Col>
       </Row>
       </Container>
-        </div>
         </>
     )
 }
