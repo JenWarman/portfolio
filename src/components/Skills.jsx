@@ -8,50 +8,44 @@ function Skills() {
 
   return (
     <Container className='skills'>
-      <Row>
-      <h2 className='skills-title'>Design</h2>
-      </Row>
       <Row className='skills-row'>
-        <Col className='icon-col'xs={4} md={1} >
-        <Image className='skills-circle' src='../Group 16.svg'/>
+        <Col className='icon-col'xs={1} md={1} >
+        <Image className='animate_animated animate__fadeInDown skills-circle' src='../Group 16.svg'/>
         </Col>
-        <Col className='icon-col'xs={4} md={1} xs={4} md={1} >
-        <Image className='skills-circle' src='../Group 14.svg'/>
+        <Col className='icon-col'xs={1} md={1}>
+        <Image className='animate_animated animate__fadeInDown skills-circle' src='../Group 14.svg'/>
         </Col>
-        <Col className='icon-col'xs={4} md={1} xs={4} md={1} >
-        <Image className='skills-circle' src='../Group 15.svg'/>
+        <Col className='icon-col'xs={1} md={1} >
+        <Image className='animate_animated animate__fadeInDown skills-circle' src='../Group 15.svg'/>
            </Col>
-        <Col className='icon-col' xs={4} md={1}>
-        <Image className='skills-circle' src='../Group 17.svg'/>
+        <Col className='icon-col' xs={1} md={1}>
+        <Image className='animate_animated animate__fadeInDown skills-circle' src='../Group 17.svg'/>
         </Col>
         </Row>
-        <Row>
-      <h2 className='skills-title' id='development-skills-title'>Development</h2>
-      </Row>
         <Row className='skills-row'>
-        <Col className='icon-col' xs={4} md={1} >
-        <Image className='skills-circle' src='../Group 5.svg'/>
+        <Col className='icon-col' xs={1} md={1} >
+        <Image className='animate_animated animate__fadeInDown skills-circle' src='../Group 5.svg'/>
         </Col>
-        <Col className='icon-col'xs={4} md={1} >
-        <Image className='skills-circle' src='../Group 9.svg'/>
+        <Col className='icon-col'xs={1} md={1} >
+        <Image className='animate_animated animate__fadeInDown skills-circle' src='../Group 9.svg'/>
         </Col>
-        <Col className='icon-col'xs={4} md={1} >
-        <Image className='skills-circle' src='../Group 8.svg'/>
+        <Col className='icon-col'xs={1} md={1} >
+        <Image className='animate_animated animate__fadeInDown skills-circle' src='../Group 8.svg'/>
         </Col>
-        <Col className='icon-col' xs={4} md={1} >
-        <Image className='skills-circle' src='../Group 10.svg'/>
+        <Col className='icon-col' xs={1} md={1} >
+        <Image className='animate_animated animate__fadeInDown skills-circle' src='../Group 10.svg'/>
         </Col>
-        <Col className='icon-col' xs={4} md={1} >
-        <Image className='skills-circle' src='../Mask group.svg'/>
+        <Col className='icon-col' xs={1} md={1} >
+        <Image className='animate_animated animate__fadeInDown skills-circle' src='../Mask group.svg'/>
         </Col>
-        <Col className='icon-col'xs={4} md={1} >
-        <Image className='skills-circle' src='../Group 13.svg'/>
+        <Col className='icon-col'xs={1} md={1} >
+        <Image className='animate_animated animate__fadeInDown skills-circle' src='../Group 13.svg'/>
         </Col>
-        <Col className='icon-col' xs={4} md={1} >
-        <Image className='skills-circle' src='../postgresql-icon.svg'/>
+        <Col className='icon-col' xs={1} md={1} >
+        <Image className='animate_animated animate__fadeInDown skills-circle' src='../postgresql-icon.svg'/>
         </Col>
-        <Col className='icon-col' xs={4} md={1} >
-        <Image className='skills-circle' src='../Jest.svg'/>
+        <Col className='icon-col' xs={1} md={1} >
+        <Image className='animate_animated animate__fadeInDown skills-circle' src='../Jest.svg'/>
         </Col>
         </Row>
     </Container>

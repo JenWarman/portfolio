@@ -109,8 +109,8 @@
 
 .skills-row.row {
   justify-content: center;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   margin: 0 auto;
 }
 .icon-col {
@@ -123,12 +123,10 @@
   height: 100px;
   display: flex;
   justify-content: flex-start;
-}
-
-.skills-title {
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
+  display: inline-block;
+  margin: 0 0.2rem;
+  animation-duration: 2s; 
+  
 }
 .design-projects {
   max-width: 60em;
@@ -342,10 +340,8 @@
     margin-bottom: 2rem;
   }
   .skills-circle {
-    border: solid #ffff 5px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -353,11 +349,8 @@
     font-size: 30px;
     text-align: center;
   } 
-  .skills-title {
-    font-size: 1.8rem;
-  }
   .skills.container {
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-bottom: 2rem;
     justify-content: center;
     font-weight: 1rem ;
@@ -369,21 +362,6 @@
     padding: 0.5rem;
     padding-top: 0;
     margin-top: 0
-  }
-  #development-skills-title{
-    padding-top: 1rem
-  }
-  .skills-circle {
-    border: solid #ffff 5px;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffff;
-    font-size: 1rem;
-    text-align: center;
   }
    .project-header {
     font-size: 4rem;
