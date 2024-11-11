@@ -36,7 +36,7 @@ function ByteSizeHabits() {
             </Col>
           </Row>
           <Row className='byte-size-row'>
-            <Col xs={12} md={12}className="byte-size-objectives">
+            <Col xs={11} md={11}className="byte-size-objectives">
             <h2 className="byte-size-sub-header">Objectives</h2>
           <ul>
               <li className="byte-size-list"><h5 className="byte-size-list"><span><strong>Set personal goals.</strong> The user can select a programming language to learn and set a daily target to study, for example 30 minutes per day. </span></h5></li>
@@ -80,7 +80,9 @@ function ByteSizeHabits() {
           </Container> 
           <Container className="youtube-container">
               <Row className="youtube-row">
+                <Col className="youtube-col">
                 <iframe src="https://www.youtube.com/embed/WPAtkq1zvKI?si=ie-yvSHupAOpQSYC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </Col>
               </Row>
           </Container>
         

@@ -24,7 +24,7 @@ function DeveloperProjects() {
           <Image src="../ByteSizeHabitsMobileProgress.png" rounded fluid/>
         </Col>
         <Col xs={6} md={3}>
-          <h2 className='developer-projects-title'>Byte Size Habits</h2>
+        <Link to='/byte-size-habits' className='recent-projects-link'> <h2 className='developer-projects-title'>Byte Size Habits</h2></Link>
           <p className='developer-projects-text'>Byte Size Habits is a habit tracker web application specifically designed to help users learn how to code and improve their programming skills.</p>
           <Link to='/byte-size-habits'><Button className='developer-button' variant="outline-dark">Project</Button></Link>
           <Link to='https://byte-size-habits.vercel.app/'><Image className="developer-project-icon" src='../domain.png'/></Link>
