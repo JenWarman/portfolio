@@ -68,10 +68,6 @@ function DesignProjects() {
           <Image src="../iPhone.png" rounded fluid/>
         </Col>
       </Row>
-      <Row>
-        <Col>
-        <div className="divider"></div></Col>
-      </Row>
       </Container>
         </>
     )

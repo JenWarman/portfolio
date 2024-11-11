@@ -9,10 +9,11 @@
   position: relative;
   z-index: 100;
   background: rgb(254,247,222);
-background: radial-gradient(circle, rgba(254,247,222,1) 0%, rgba(218,225,228,1) 58%, rgba(46,119,255,1) 100%);
+  background: radial-gradient(circle, rgba(254,247,222,1) 0%, rgba(218,225,228,1) 58%, rgba(46,119,255,1) 100%);
 }
+
 .hero-row.row {
-  justify-content: center;
+text-align: center;
 }
 .hero-bar {
   margin-top:5em;
@@ -25,17 +26,14 @@ background: radial-gradient(circle, rgba(254,247,222,1) 0%, rgba(218,225,228,1) 
   margin-top: 10rem;
 }
 #designer {
-  text-align: left;
+  text-align: center;
 }
 
 #developer {
-  /* color: #ffff; */
-  text-align: end;
-  padding-left: 8rem
+  text-align: center;
 }
 .designer-hero-sub-header {
   text-align: justify;
-  padding-right: 8rem;
 }
 
 .diagonal-box {
@@ -55,9 +53,9 @@ background: radial-gradient(circle, rgba(254,247,222,1) 0%, rgba(218,225,228,1) 
   z-index: 1;
 } */
 
-.recent-projects {
-  margin: 3rem;
-  padding: 3rem;
+.recent-projects.container {
+  /* margin: 3rem; */
+  padding: 1rem;
 }
 
 .recent-projects-title {
@@ -85,7 +83,6 @@ background: radial-gradient(circle, rgba(254,247,222,1) 0%, rgba(218,225,228,1) 
 }
 
 .about-section {
-  margin-top: 4rem;
   margin-bottom: 4rem;
 }
 .about-row.row {
@@ -130,24 +127,33 @@ background: radial-gradient(circle, rgba(254,247,222,1) 0%, rgba(218,225,228,1) 
   animation-duration: 2s; 
   
 }
-.design-projects {
+.design-projects.container {
   max-width: 60em;
   margin: 0 auto;
-  margin-top: 10em;
-  margin-bottom: 10em;
+  padding-bottom: 0  ;
 }
 
-.project-info {
+.project-info.row {
   margin-bottom: 5em;
   padding-top: 2rem;
   text-align: justify;
 }
-
+#developer-container {
+  padding-top: 0
+}
 .project-header {
   font-weight:bold;
   font-size:80px;
 }
-
+.projects-title {
+  font-size: 1.5rem;
+  padding-top: 2rem
+}
+.UIUX-projects-title {
+    font-weight: 500;
+    font-size: 40px;
+    text-align: start;
+}
 .divider {
   height: 6px;
   width: 80%;
@@ -172,13 +178,15 @@ background: radial-gradient(circle, rgba(254,247,222,1) 0%, rgba(218,225,228,1) 
 }
 
 .developer-recent-projects-title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 40px;
   text-align: end;
 }
 
 .developer-projects-title {
   text-align: end;
+  font-size: 1.5rem;
+  padding-top: 2rem
 }
 
 .developer-button {
@@ -258,7 +266,7 @@ background: radial-gradient(circle, rgba(254,247,222,1) 0%, rgba(218,225,228,1) 
   height: 80vh
 }
 /* mobile */
-@media screen and (max-width: 1098px) {
+@media screen and (max-width: 1200px) {
   .container {
     padding: 0 ;
   }
