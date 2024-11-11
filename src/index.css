@@ -103,56 +103,28 @@
   padding-top: 0
 }
 .skills {
-
   justify-content: center;
-  font-weight: 600 ;
+  font-weight: 600;
 }
 
 .skills-row.row {
   justify-content: center;
-  margin: auto;
   padding-top: 2rem;
   padding-bottom: 3rem;
+  margin: 0 auto;
 }
-
-.skills-image {
-  display: none
+.icon-col {
+  justify-content: center;
+  margin: 1rem
 }
 
 .skills-circle {
-  border: solid #ffff 5px;
-  width: 230px;
-  height: 230px;
-  border-radius: 50%;
+  width: 100px;
+  height: 100px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffff;
-  font-size: 30px;
-  text-align: center;
+  justify-content: flex-start;
 }
 
-#figma {
-  background-color: #0C42A6;
-}
-
-#adobe {
-  background-color: #2260D4;
-  line-height: 1.3;
-  word-spacing: 60px;
-}
-
-#javascript {
-  background-color: #2C76FF;
-}
-
-#html {
-  background-color: #4687FF;
-}
-
-#css {
-  background-color: #77A7FF;
-}
 .skills-title {
   text-align: center;
   font-size: 40px;

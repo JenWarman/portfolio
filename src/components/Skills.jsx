@@ -12,52 +12,46 @@ function Skills() {
       <h2 className='skills-title'>Design</h2>
       </Row>
       <Row className='skills-row'>
-        <Col xs={4} md={2} >
-        <div className='skills-circle' id='figma'>Figma</div>
+        <Col className='icon-col'xs={4} md={1} >
+        <Image className='skills-circle' src='../Group 16.svg'/>
         </Col>
-        <Col xs={4} md={2} >
-          <div className='skills-circle' id='adobe'>Adobe Photoshop</div>
+        <Col className='icon-col'xs={4} md={1} xs={4} md={1} >
+        <Image className='skills-circle' src='../Group 14.svg'/>
         </Col>
-        <Col xs={4} md={2} >
-          <div className='skills-circle' id='javascript'>Adobe Illustrator</div>
+        <Col className='icon-col'xs={4} md={1} xs={4} md={1} >
+        <Image className='skills-circle' src='../Group 15.svg'/>
+           </Col>
+        <Col className='icon-col' xs={4} md={1}>
+        <Image className='skills-circle' src='../Group 17.svg'/>
         </Col>
-        {/* <Col xs={4} md={2} >
-          <div className='skills-circle' id='html'>HTML</div>
-        </Col>
-        <Col xs={4} md={2} >
-          <div className='skills-circle' id='css'>CSS</div>
-        </Col> */}
         </Row>
         <Row>
       <h2 className='skills-title' id='development-skills-title'>Development</h2>
       </Row>
         <Row className='skills-row'>
-        <Col xs={4} md={2} >
-        <div className='skills-circle' id='figma'>JavaScript</div>
+        <Col className='icon-col' xs={4} md={1} >
+        <Image className='skills-circle' src='../Group 5.svg'/>
         </Col>
-        <Col xs={4} md={2} >
-          <div className='skills-circle' id='adobe'>HTML</div>
+        <Col className='icon-col'xs={4} md={1} >
+        <Image className='skills-circle' src='../Group 9.svg'/>
         </Col>
-        <Col xs={4} md={2} >
-          <div className='skills-circle' id='javascript'>CSS</div>
+        <Col className='icon-col'xs={4} md={1} >
+        <Image className='skills-circle' src='../Group 8.svg'/>
         </Col>
-        <Col xs={4} md={2} >
-          <div className='skills-circle' id='html'>React.js</div>
+        <Col className='icon-col' xs={4} md={1} >
+        <Image className='skills-circle' src='../Group 10.svg'/>
         </Col>
-        <Col xs={4} md={2} >
-          <div className='skills-circle' id='css'>Next.js</div>
+        <Col className='icon-col' xs={4} md={1} >
+        <Image className='skills-circle' src='../Mask group.svg'/>
         </Col>
-        <Col xs={4} md={2} >
-          <div className='skills-circle' id='figma'>SQL</div>
+        <Col className='icon-col'xs={4} md={1} >
+        <Image className='skills-circle' src='../Group 13.svg'/>
         </Col>
-        <Col xs={4} md={2} >
-          <div className='skills-circle' id='adobe'>PostgreSQL</div>
+        <Col className='icon-col' xs={4} md={1} >
+        <Image className='skills-circle' src='../postgresql-icon.svg'/>
         </Col>
-        <Col xs={4} md={2} >
-          <div className='skills-circle' id='javascript'>Jest</div>
-        </Col>
-        <Col xs={4} md={2} >
-          <div className='skills-circle' id='html'>SuperTest</div>
+        <Col className='icon-col' xs={4} md={1} >
+        <Image className='skills-circle' src='../Jest.svg'/>
         </Col>
         </Row>
     </Container>
