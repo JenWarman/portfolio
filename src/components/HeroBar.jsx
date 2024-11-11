@@ -19,7 +19,7 @@ function HeroBar() {
         </Col>
         <Col className='slide-left' xs={6} md={3}>
           <h1 className='hero-header'>Developer</h1>
-          <h5 className='developer-hero-sub-header'>Frontend web development with solid and scaleable code. </h5>
+          <h5 className='developer-hero-sub-header'>Frontend web development with solid and scalable code. </h5>
         </Col>
         <Row>
         <Col>
@@ -28,7 +28,7 @@ function HeroBar() {
         </Row>
         <Row>
         <Col>
-          <p className='media-hero-sub-header'>ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor elit odio, nec dapibus orci malesuada a. Ut gravida, lorem eget mattis porta, ex enim condimentum erat, ac lacinia turpis nibh at ipsum.</p>
+          <p className='media-hero-sub-header'>Engaging and functional UI/UX design for digital experiences and frontend web development with solid and scalable code.</p>
           </Col>
         </Row>
       </Row>

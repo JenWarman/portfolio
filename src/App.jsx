@@ -11,6 +11,7 @@ import DesignProjects from './components/DesignProjects';
 import DeveloperProjects from './components/DeveloperProjects';
 import 'animate.css';
 import ByteSizeHabits from './components/ByteSizeHabits';
+import BookClubApp from './components/BookClubApp';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route path='/about' element={<><About /><Skills/></>}></Route>
             <Route path='/projects' element={<><DesignProjects /><DeveloperProjects/></>}></Route>
             <Route path='/byte-size-habits' element={<ByteSizeHabits/>}></Route>
+            <Route path='/book-club-app' element={<BookClubApp/>}></Route>
         </Routes> 
       <Footer />
     </div>

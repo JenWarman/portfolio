@@ -14,9 +14,9 @@ function DesignProjects() {
         
         <Row className="project-info">
       <Col xs={6} md={3}>
-          <h2 className='projects-title'>Project Name</h2>
+          <Link to='/book-club-app' className='recent-projects-link'><h2 className='projects-title'>Book Club App</h2></Link>
           <p className='projects-text'>ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor elit odio, nec dapibus orci malesuada a. Ut gravida, lorem eget mattis porta, ex enim condimentum erat, ac lacinia turpis nibh at ipsum.</p>
-          <Button className='project-button' variant="outline-dark">Project</Button>
+          <Link to='/book-club-app'><Button className='project-button' variant="outline-dark">Project</Button></Link>
         <Link><Image className="project-icon" src='../domain.png'/></Link>
         <Link><Image className="project-icon" src='../github.png'/></Link>
         </Col>
