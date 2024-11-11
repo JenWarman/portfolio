@@ -15,7 +15,7 @@ function HeroBar() {
           <h5 className='designer-hero-sub-header'>UI/UX design for engaging and functional digital experiences. </h5>
         </Col>
         <Col className='profile-image' xs={7} md={4}>
-          <Image src="../profile.jpg" rounded fluid/>
+          <Image src="../profile.jpg" fluid/>
         </Col>
         <Col className='slide-left' id='developer'xs={6} md={4}>
           <h1 className='hero-header'>Developer</h1>
