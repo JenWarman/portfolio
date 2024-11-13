@@ -7,8 +7,8 @@ function BorderlineArts() {
         <Container classname='byte-size-habits'>
           <Row className='byte-size-row'>
             <Col className='byte-size-col'xs={10} md={4}>
-            <h1 className="byte-size-title"><Link className='recent-projects-link'to='https://byte-size-habits.vercel.app/'>Borderline Arts</Link></h1>
-            <h5 className="byte-size-intro"><Link className='recent-projects-link' to='https://github.com/DannyGreenan/byte-size-habits'><strong></strong></Link> Redesign of a local mental health charity’s website as part of their online initiative to rebrand for their 10 year anniversary.<br></br>
+            <h1 className="borderline-title"><Link className='recent-projects-link'to='https://byte-size-habits.vercel.app/'>Borderline Arts</Link></h1>
+            <h5 className="borderline-intro"><Link className='recent-projects-link' to='https://github.com/DannyGreenan/byte-size-habits'><strong></strong></Link> Redesign of a local mental health charity’s website as part of their online initiative to rebrand for their 10 year anniversary.<br></br>
 
 <br></br>The redesign focussed on two key areas. The first was updating the branding, with a vibrant colour palette, a dynamic and modern layout combined with energetic character designs and graphics.<br></br>
 
@@ -18,20 +18,22 @@ function BorderlineArts() {
 </h5>
             </Col>
             <Col xs={10} md={8}>
-            <Image classname='byte-size-group-image'src='../ByteSizeGroupCropped.png'fluid />
+            <Image classname='byte-size-group-image'src='../BorderlineArts.png'fluid />
             </Col>
           </Row>
           <Row className='byte-size-row'>
             <Col xs={5} md={5}>
-            <h2 className="byte-size-sub-header">Project</h2>
-            <h5 className="byte-size-intro">Volunteer position</h5>
-            <h2 className="byte-size-sub-header">Role</h2>
-            <h5 className="byte-size-intro">UI/UX design and....</h5>
+            <h2 className="borderline-sub-header">Project</h2>
+            <h5 className="borderline-intro">Volunteer position</h5>
+            </Col>
+            <Col>
+            <h2 className="borderline-sub-header">Role</h2>
+            <h5 className="borderline-intro">UI/UX design and....</h5>
             </Col>
           </Row>
-          <Row className='byte-size-row'>
-            <Col xs={11} md={11}className="byte-size-objectives">
-            <h2 className="byte-size-sub-header">Objectives</h2>
+          <Row className='borderline-row'>
+            <Col xs={11} md={12}className="borderline-objectives">
+            <h2 className="borderline-sub-header">Objectives</h2>
           <ul>
               <li className="byte-size-list"><h5 className="byte-size-list"><span><strong>Set personal goals.</strong> The user can select a programming language to learn and set a daily target to study, for example 30 minutes per day. </span></h5></li>
               <li className="byte-size-list"><h5 className="byte-size-list"><span><strong>Motivate the user.</strong> Nibbler's health decreases over time and the only way to restore him to full charge is for the user to complete their daily learning objective.
