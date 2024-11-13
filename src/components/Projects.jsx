@@ -17,7 +17,6 @@ function Projects() {
           <p className='projects-text'>ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor elit odio, nec dapibus orci malesuada a. Ut gravida, lorem eget mattis porta, ex enim condimentum erat, ac lacinia turpis nibh at ipsum.</p>
           <Link to='/book-club-app'><Button className='project-button' variant="outline-dark">Project</Button></Link>
         <Link><Image className="project-icon" src='../domain.png'/></Link>
-        <Link><Image className="project-icon" src='../github.png'/></Link>
         </Col>
         <Col className='project-image' xs={6} md={3}>
           <Image src="../iPhone.png" rounded fluid/>

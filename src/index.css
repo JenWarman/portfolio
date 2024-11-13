@@ -91,12 +91,13 @@ text-align: center;
 
 .about-title {
   font-weight: bold;
-  font-size: 80px;
+  font-size: 60px;
 }
 
 .about-text {
   text-align: justify;
-  margin-right: 3rem
+  margin-right: 3rem;
+  font-size: 20px;
 }
 .skills.container {
   padding-top: 0
@@ -141,11 +142,12 @@ text-align: center;
 
 .project-header {
   font-weight:bold;
-  font-size:80px;
+  font-size:60px;
 }
 .projects-title {
   font-size: 1.5rem;
-  padding-top: 2rem
+  padding-top: 2rem;
+  font-weight: bold;
 }
 .project-icon {
   height: 2rem;
@@ -381,7 +383,7 @@ iframe {
     font-size: 1.2rem;
    }
    .recent-projects-text {
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-align: justify;
    }
    .recent-projects-button.btn.btn-outline-dark {
