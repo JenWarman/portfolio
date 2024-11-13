@@ -242,12 +242,16 @@ iframe {
 }
 
 .borderline-title {
-  text-align: center;
   font-weight: bold;
  font-size: 60px;
 }
+.borderline-title :hover{
+  color: #2C76FF;
+}
 .borderline-intro {
   text-align: justify;
+  padding-top: 1rem;
+  
 }
 .borderline-sub-header {
   font-weight: bold;
@@ -365,8 +369,8 @@ iframe {
     margin-top: 0
   }
    .project-header {
-    font-size: 4rem;
-    margin: 0 auto;
+    font-size: 3rem;
+    margin-top: 1rem;
     padding-left: 1.5rem
    }
    .recent-projects-title {
@@ -391,8 +395,7 @@ iframe {
    }
    .project-info.row {
     margin: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding: 0;
     justify-content: center;
    }
    .projects-title {
@@ -405,46 +408,10 @@ iframe {
    .project-button.btn.btn-outline-dark {
     font-size: 0.8rem;
    }
-   .developer-project-header {
-    font-size: 4rem;
-    margin: 0 auto;
-    padding-right: 1.5rem;
-   }
-   .developer-recent-projects-title {
-    margin: 0 auto;
-    padding-right: 1.5rem;
-    padding-bottom: 1rem;
-    padding-top: 0.5rem;
-    font-size: 1.4rem;
-   }
-   .developer-projects-title {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-top: 1rem;
-    text-align: end;
-   }
-   .developer-projects-text {
-    font-size: 0.8rem;
-   }
-   .developer-button.btn.btn-outline-dark {
-    font-size: 0.8rem;
-   }
-   .design-projects {
-    margin: 2rem
-   }
-   .divider {
-    width: 100%;
-    margin: 0 auto;
-   }
    .project-icon {
     height: 1.5rem;
     padding-left: 1rem;
    }
-  .developer-project-icon {
-    height: 1.5rem;
-    float: right;
-    padding-right: 1rem;
-  }
    /* .bottom-diagonal-box {
     border-right: 100vw solid transparent;
     border-bottom: 80vh solid #2e77ff;
@@ -510,6 +477,15 @@ iframe {
   .youtube-col.col {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+  .borderline-text {
+    padding-bottom: 1rem
+  }
+  #borderline-header {
+    padding-top: 0;
+  }
+  #borderline-text-box {
+    padding-bottom: 1rem
   }
 }
 
