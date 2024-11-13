@@ -9,7 +9,7 @@
   position: relative;
   z-index: 100;
   background: rgb(254,247,222);
-  background: radial-gradient(circle, rgba(254,247,222,1) 0%, rgba(218,225,228,1) 58%, rgba(46,119,255,1) 100%);
+  background: radial-gradient(circle, rgb(222, 250, 254) 0%, rgb(251, 251, 252) 58%, rgba(46,119,255,1) 100%);
 }
 
 .hero-row.row {
@@ -134,13 +134,11 @@ text-align: center;
 }
 
 .project-info.row {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
   padding-top: 2rem;
   text-align: justify;
 }
-#developer-container {
-  padding-top: 0
-}
+
 .project-header {
   font-weight:bold;
   font-size:80px;
@@ -149,49 +147,10 @@ text-align: center;
   font-size: 1.5rem;
   padding-top: 2rem
 }
-.UIUX-projects-title {
-    font-weight: 500;
-    font-size: 40px;
-    text-align: start;
-}
-.divider {
-  height: 6px;
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 1rem;
-  background-color: #2C76FF;
-}
 .project-icon {
   height: 2rem;
   padding-left: 2rem;
  }
-.developer-project-icon {
-  height: 2rem;
-  float: right;
-  padding-right: 2rem;
-}
-
-.developer-project-header {
-  font-weight:bold;
-  font-size:80px;
-  text-align: end;
-}
-
-.developer-recent-projects-title {
-  font-weight: 500;
-  font-size: 40px;
-  text-align: end;
-}
-
-.developer-projects-title {
-  text-align: end;
-  font-size: 1.5rem;
-  padding-top: 2rem
-}
-
-.developer-button {
-  float: right;
-}
 
 #header-title {
   font-size: 30px;

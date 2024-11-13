@@ -7,8 +7,7 @@ import RecentProjects from './components/RecentProjects';
 import { Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Skills from './components/Skills';
-import DesignProjects from './components/DesignProjects';
-import DeveloperProjects from './components/DeveloperProjects';
+import DesignProjects from './components/Projects';
 import 'animate.css';
 import ByteSizeHabits from './components/ByteSizeHabits';
 import BookClubApp from './components/BookClubApp';
@@ -24,7 +23,7 @@ function App() {
         <Routes>
           <Route path='/' element={<><HeroBar /><RecentProjects/></>}></Route>
             <Route path='/about' element={<><About /><Skills/></>}></Route>
-            <Route path='/projects' element={<><DesignProjects /><DeveloperProjects/></>}></Route>
+            <Route path='/projects' element={<DesignProjects />}></Route>
             <Route path='/byte-size-habits' element={<ByteSizeHabits/>}></Route>
             <Route path='/book-club-app' element={<BookClubApp/>}></Route>
         </Routes> 
