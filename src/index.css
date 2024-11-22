@@ -14,17 +14,15 @@
 
 .hero-row.row {
 text-align: center;
-}
-.hero-bar {
-  margin-top:5em;
-  margin-bottom: 5em;
+
 }
 
 .hero-header {
   font-weight:bold;
   font-size:60px;
-  margin-top: 10rem;
+  margin-top: 100%;
 }
+
 #designer {
   text-align: center;
 }
@@ -32,29 +30,19 @@ text-align: center;
 #developer {
   text-align: center;
 }
-.designer-hero-sub-header {
+.hero-sub-header {
   text-align: justify;
+  font-size: 1.5rem;
 }
 
-.diagonal-box {
-  border-left: 100vw solid transparent;
-  border-top: 80vh solid #2e77ff;
-  position:absolute;
-  width: 100vw;
-  z-index: 1;
+.profile-image {
+  width: 80%;
+  margin: 1rem;
+  border-radius: 50%;
 }
 
-/* .bottom-diagonal-box {
-  border-right: 100vw solid transparent;
-  border-bottom: 80vh solid #2e77ff;
-  margin-top:  137vh;
-  position: absolute;
-  width: 100vw;
-  z-index: 1;
-} */
 
 .recent-projects.container {
-  /* margin: 3rem; */
   padding: 1rem;
 }
 
@@ -97,7 +85,7 @@ text-align: center;
 .about-text {
   text-align: justify;
   margin-right: 3rem;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 .skills.container {
   padding-top: 0
@@ -137,7 +125,7 @@ text-align: center;
 .project-info.row {
   margin-bottom: 2em;
   padding-top: 2rem;
-  text-align: justify;
+
 }
 
 .project-header {
@@ -145,15 +133,24 @@ text-align: center;
   font-size:60px;
 }
 .projects-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding-top: 2rem;
   font-weight: bold;
 }
+
+.projects-text {
+  font-size: 1.2rem;
+  text-align: justify;
+}
 .project-icon {
   height: 2rem;
-  padding-left: 2rem;
+  padding-left: 1.8rem;
  }
-
+.project-button.btn.btn-outline-dark {
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: solid 3px;
+}
 #header-title {
   font-size: 30px;
 }
