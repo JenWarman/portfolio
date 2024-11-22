@@ -11,7 +11,7 @@ function Projects() {
             </Col>
         </Row>
         
-        <Row className="project-info">
+        {/* <Row className="project-info">
       <Col xs={6} md={3}>
           <Link to='/book-club-app' className='recent-projects-link'><h2 className='projects-title'>Book Club App</h2></Link>
           <p className='projects-text'>ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor elit odio, nec dapibus orci malesuada a. Ut gravida, lorem eget mattis porta, ex enim condimentum erat, ac lacinia turpis nibh at ipsum.</p>
@@ -27,7 +27,7 @@ function Projects() {
         <Col className='project-image' xs={6} md={3}>
           <Image src="../iPhone.png" rounded fluid/>
         </Col>
-      </Row>
+      </Row> */}
       <Row className="project-info">
       <Col xs={6} md={3}>
         <Link to='/byte-size-habits' className='recent-projects-link'> <h2 className='projects-title'>Byte Size Habits</h2></Link>
@@ -45,7 +45,18 @@ function Projects() {
         <Col className='project-image' xs={6} md={3}>
           <Image src="../ByteSizeHabitsMobileProgress.png" rounded fluid/>
         </Col>
-        
+      </Row>
+
+      <Row className="project-info">
+      <Col id='borderline-text-box'xs={12} md={3}>
+          <Link to='/ncnews' className='recent-projects-link'><h2 id='borderline-header' className='projects-title'>NC News</h2></Link>
+          <p className='projects-text'>A social news aggregation, web content rating and discussion website.</p>
+          <Link to='/ncnews'><Button className='project-button' variant="outline-dark">Project</Button></Link>
+        <Link to='https://github.com/JenWarman/nc-news-react-app'><Image className="project-icon" src='../github.png'/></Link>
+        </Col>
+        <Col className='project-image' xs={12} md={9}>
+          <Image id='borderline-image'src="../NCNews.png" fluid/>
+        </Col>
       </Row>
 
       <Row className="project-info">
@@ -59,6 +70,8 @@ function Projects() {
           <Image id='borderline-image'src="../BorderlineArtsHomepage.png" fluid/>
         </Col>
       </Row>
+
+      
       </Container>
         </>
     )
