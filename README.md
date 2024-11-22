@@ -1,8 +1,6 @@
-# React + Vite
+# Jen Warman - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi, I'm Jen! This is my personal portfolio of UI/UX design and web development projects built with Javascript, HTML, CSS, React, Vite and Bootstrap. 
 
-Currently, two official plugins are available:
+Connect with me - [LinkedIn] (https://www.linkedin.com/in/jen-warman-38198a172/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
