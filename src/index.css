@@ -48,7 +48,7 @@ text-align: center;
 
 .recent-projects-title {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 2rem;
   margin-top: 5rem;
   padding-right: 1rem;
 }
@@ -57,6 +57,7 @@ text-align: center;
   color: #2C76FF;
 }
 .recent-projects-text {
+  font-size: 1.2rem;
   padding-right: 1rem;
   padding-top: 0.5rem;
   text-align: justify;
@@ -298,8 +299,9 @@ iframe {
     text-align: center;
   }
   .media-hero-sub-header {
+    font-size: 1.3rem;
     display: block;
-    text-align: justify;
+    text-align: center;
     margin: 0;
     padding-left: 1rem;
     padding-right: 1rem
@@ -383,9 +385,7 @@ iframe {
     font-size: 1rem;
     text-align: justify;
    }
-   .recent-projects-button.btn.btn-outline-dark {
-    font-size: 0.8rem;
-   }
+  
    .UIUX-projects-title {
     margin: 0 auto;
     padding-left: 1.5rem;
