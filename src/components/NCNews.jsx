@@ -113,14 +113,6 @@ export default function NCNews() {
                 </span>
               </h5>
             </li>
-            <li className="byte-size-list">
-              <h5 className="byte-size-list">
-                <span>
-                  <strong> Track progress.</strong>The user can track their
-                  progress and compare their weekly or monthly streak.
-                </span>
-              </h5>
-            </li>
           </ul>
         </Col>
       </Row>

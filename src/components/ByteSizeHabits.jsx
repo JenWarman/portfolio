@@ -57,7 +57,7 @@ function ByteSizeHabits() {
               bootcamp.
             </h5>
             <h2 className="byte-size-sub-header">Role</h2>
-            <h5 className="byte-size-intro">Full stack software developer</h5>
+            <h5 className="byte-size-intro">Full stack software developer.</h5>
             <h2 className="byte-size-sub-header">Tech Stack</h2>
             <ul>
               <li className="byte-size-list">

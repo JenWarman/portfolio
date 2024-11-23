@@ -29,7 +29,7 @@ function BorderlineArts() {
               The redesign focussed on two key areas, rebranding and updating
               the design of the website but to also improve accessibility and
               ease of information. This was achieved using Wix’s customisable
-              website builder and Customer Management Software in addition to
+              website builder and Content Management Software in addition to
               Wave to ensure high accessibility standards.
             </h5>
           </Col>
@@ -45,13 +45,13 @@ function BorderlineArts() {
           <Col xs={11} md={3}>
             <h2 className="borderline-sub-header">Project</h2>
             <h5 id="borderline-project-type" className="borderline-intro">
-              Volunteer position
+              Volunteer position.
             </h5>
           </Col>
           <Col xs={11} md={9}>
             <h2 className="borderline-sub-header">Role</h2>
             <h5 id="borderline-intro" className="borderline-intro">
-              UI/UX design and web development
+              UI/UX design and web development.
             </h5>
           </Col>
         </Row>
