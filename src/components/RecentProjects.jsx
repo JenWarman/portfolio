@@ -34,7 +34,7 @@ function RecentProjects() {
             <Image className="project-icon" src="../domain.png" />
           </Link>
           <Link to="https://github.com/DannyGreenan/byte-size-habits">
-            <Image className="project-icon" src="../github.png" />
+            <Image className="project-icon" src="../github-mark.png" />
           </Link>
         </Col>
         <Col className="recent-project-image" xs={4} md={3}>

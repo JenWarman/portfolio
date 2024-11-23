@@ -30,7 +30,7 @@ function Projects() {
               <Image className="project-icon" src="../domain.png" />
             </Link>
             <Link to="https://github.com/DannyGreenan/byte-size-habits">
-              <Image className="project-icon" src="../github.png" />
+              <Image className="project-icon" src="../github-mark.png" />
             </Link>
           </Col>
           <Col className="project-image" xs={6} md={3}>
@@ -61,7 +61,7 @@ function Projects() {
               </Button>
             </Link>
             <Link to="https://github.com/JenWarman/nc-news-react-app">
-              <Image className="project-icon" src="../github.png" />
+              <Image className="project-icon" src="../github-mark.png" />
             </Link>
           </Col>
           <Col className="project-image" xs={12} md={9}>
