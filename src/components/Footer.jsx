@@ -19,7 +19,7 @@ function Footer() {
           </Nav.Item>
           <Nav.Item className="social-icon">
             <Nav.Link href="https://github.com/JenWarman">
-              <Image src="../github-mark-white.png" />
+              <Image id='footer-icon'src="../Github.png" />
             </Nav.Link>
           </Nav.Item>
           <Nav.Item className="social-icon ">
