@@ -4,51 +4,48 @@ import { Link } from "react-router-dom";
 function BookClubApp() {
     return (
         <>
-        <Container classname='bok-club-container'>
+        <Container classname='book-club-container'>
           <Row className='book-club-row'>
-            <Col className='book-club-row'>
+            <Col>
             <h1 className="book-club-title">Book Club App</h1>
             </Col>
             </Row>
-            <Row>
-            <Col xs={3} md={2}>
+            <Row className="book-club-image-row">
+            <Col xs={2} md={2}>
             <Image classname='byte-size-group-image'src='../ByteSizeHabitsMobileLogin.png' fluid/>
             </Col >
-            <Col xs={3} md={2}>
+            <Col xs={2} md={2}>
             <Image classname='byte-size-group-image'src='../ByteSizeHabitsMobileLogin.png' fluid/>
             </Col>
-            <Col xs={3} md={2}>
+            <Col xs={2} md={2}>
             <Image classname='byte-size-group-image'src='../ByteSizeHabitsMobileLogin.png' fluid/>
             </Col>
-            <Col xs={3} md={2}>
+            <Col xs={2} md={2}>
             <Image classname='byte-size-group-image'src='../ByteSizeHabitsMobileLogin.png' fluid/>
             </Col>
-            <Col xs={3} md={2}>
-            <Image classname='byte-size-group-image'src='../ByteSizeHabitsMobileLogin.png' fluid/>
-            </Col>
-            <Col xs={3} md={2}>
+            <Col xs={2} md={2}>
             <Image classname='byte-size-group-image'src='../ByteSizeHabitsMobileLogin.png' fluid/>
             </Col>
             </Row>
-            <Row>
-            <Col xs={10} md={12}><h4 className='book-club-intro'><strong>Your Book Club</strong> is an application that cultivates a community of book lovers and connects them with book clubs to share and discover new reading experiences. <br></br>
+            <Row className="book-club-image-row">
+            <Col xs={11} md={11}><h4 className='book-club-intro'><strong>Your Book Club</strong> is an application that cultivates a community of book lovers and connects them with book clubs to share and discover new reading experiences. <br></br>
 
 <br></br>The user can create their own book club or search for open book clubs using their personalised search criteria, such as location, meet-up style (online or in-person), book genre or theme. <br></br>
 
 <br></br>User engagement is encouraged through access to group messaging, polls for future book club picks and awards for book club participation and completing reading challenges. 
 </h4></Col>
            </Row>
-          <Row className='byte-size-row'>
-            <Col>
+          <Row className="book-club-image-row">
+            <Col xs={6} md={5}>
             <h2 className="byte-size-sub-header">Project</h2>
             <h5 className="byte-size-intro">Self-initiated</h5>
             </Col>
-            <Col>
+            <Col xs={6} md={6}>
             <h2 className="byte-size-sub-header">Role</h2>
             <h5 className="byte-size-intro">UI/UX Designer</h5>
             </Col>
           </Row>
-          <Row className='byte-size-row'>
+          <Row className="book-club-image-row">
             <Col xs={11} md={11}className="byte-size-objectives">
             <h2 className="byte-size-sub-header">Objectives</h2>
           <ul>
@@ -60,7 +57,7 @@ function BookClubApp() {
             </ul>
             </Col>
           </Row>
-          <Row className='byte-size-row'>
+          <Row className="book-club-image-row">
             <Col xs={11} md={8} className="byte-size-objectives">
             <h2 className="byte-size-sub-header">Persona</h2>
           <ul>
@@ -74,63 +71,62 @@ function BookClubApp() {
             <li className="byte-size-list"><h5 className="byte-size-list"><span><strong>Weaknesses: </strong>Time management and limited social circle.</span></h5></li>
             </ul>
             </Col>
-            <Col xs={11} md={4}><Image src='../profile.jpg' fluid/></Col>
+            <Col xs={11} md={3}><Image src='../profile.jpg' fluid/></Col>
           </Row>
           </Container>
-
-          <Container className="book-club-wireframe-container" fluid bg="dark">
+          
+          <Container className="book-club-wireframe-container" fluid>
         <Container className="book-club-inner-wireframe-container">
-          <Row>
-            <h2 id="book-club-wireframe-header">Wireframes</h2>
+          <Row className="book-club-image-row">
+            <h2 id="wireframe-header">Wireframes</h2>
           </Row>
           <Row className="book-club-wireframe-row">
-            <Col xs={3} md={3}>
+            <Col xs={4} md={3}>
               <Image className="book-club-wireframe-image" src="../BookClubApp/Splash Screen.png" />
             </Col>
-            <Col xs={3} md={3}>
+            <Col xs={4} md={3}>
               <Image className="book-club-wireframe-image" src="../BookClubApp/Login.png" />
             </Col>
-            <Col xs={3} md={3}>
+            <Col xs={4} md={3}>
               <Image className="book-club-wireframe-image" src="../BookClubApp/Sign-up.png" />
             </Col>
-            <Col xs={3} md={3}>
-              <Image className="book-club-wireframe-image" src="../BookClubApp/Home Screen-new user.png" />
+            <Col xs={4} md={3}>
+              <Image className="book-club-wireframe-image" src="../BookClubApp/Home Screen -new user.png" />
             </Col>
-            <Col xs={3} md={3}>
+            <Col xs={4} md={3}>
               <Image className="book-club-wireframe-image" src="../BookClubApp/Profile - New User.png" />
             </Col>
-            <Col xs={3} md={3}>
+            <Col xs={4} md={3}>
               <Image className="book-club-wireframe-image" src="../BookClubApp/Profile - Exisiting User.png" />
             </Col>
-            <Col xs={3} md={3}>
+            <Col xs={4} md={3}>
               <Image className="book-club-wireframe-image" src="../BookClubApp/Home Screen - exisiting user.png" />
             </Col>
-            <Col xs={3} md={3}>
+            <Col xs={4} md={3}>
               <Image className="book-club-wireframe-image" src="../BookClubApp/Book Club Search.png" />
             </Col>
-            <Col xs={3} md={23}>
+            <Col xs={4} md={3}>
               <Image className="book-club-wireframe-image" src="../BookClubApp/Book Club Create.png" />
             </Col>
-            <Col xs={3} md={3}>
+            <Col xs={4} md={3}>
               <Image className="book-club-wireframe-image" src="../BookClubApp/Book Club Home Page - Member.png" />
             </Col>
-            <Col xs={3} md={3}>
+            <Col xs={4} md={3}>
               <Image className="book-club-wireframe-image" src="../BookClubApp/Creator.png" />
             </Col>
-          
-             <Col xs={3} md={3}>
+             <Col xs={4} md={3}>
              <Image className="book-club-wireframe-image" src="../BookClubApp/Book Club Page - About.png" />
            </Col>
-           <Col xs={3} md={3}>
+           <Col xs={4} md={3}>
               <Image className="book-club-wireframe-image" src="../BookClubApp/Book Club Page - Books.png" />
             </Col>
-            <Col xs={3} md={3}>
+            <Col xs={4} md={3}>
               <Image className="book-club-wireframe-image" src="../BookClubApp/Book Club Page - Messages.png" />
             </Col>
-            <Col xs={3} md={3}>
+            <Col xs={4} md={3}>
               <Image className="book-club-wireframe-image" src="../BookClubApp/Book Club Page - Poll.png" />
             </Col>
-            <Col xs={3} md={3}>
+            <Col xs={4} md={3}>
               <Image className="book-club-wireframe-image" src="../BookClubApp/Book Club Page - Events.png" />
             </Col>
           </Row>
