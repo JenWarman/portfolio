@@ -256,12 +256,30 @@ iframe {
 .book-club-intro {
   margin-left: 2rem;
   margin-right: 2rem;
-  margin-bottom: 2rem;
   text-align: justify;
   font-size: 1.4rem;
 }
 .book-club-image-row {
   justify-content: center;
+}
+.book-club-wireframe-container {
+  display: flex;
+}
+.book-club-inner-wireframe-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.book-club-wireframe-image {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 600px;
+}
+.book-club-text-row {
+  justify-content: center;
+  padding-top: 1rem;
 }
 .borderline-title {
   font-weight: bold;
@@ -280,22 +298,6 @@ iframe {
 }
 .borderline-row {
   padding: 1rem;
-}
-
-.book-club-wireframe-container {
-  display: flex;
-}
-.book-club-inner-wireframe-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.book-club-wireframe-image {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  height: 600px
 }
 
 /* mobile */
@@ -503,6 +505,8 @@ iframe {
   #wireframe-header {
     font-size: 1.2rem;
     margin: 0 auto;
+    text-align: center;
+    padding-top: 1rem;
   }
   .wireframe-image {
     width: 100px;
@@ -558,13 +562,20 @@ iframe {
   a#header-title.navbar-brand {
     font-size: 1.5rem;
   }
-  .book-club-inner-wireframe-container {
-    padding:1rem
+  .book-club-inner-wireframe-container.container {
+    justify-content: center;
   }
   .book-club-wireframe-image {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    height: 300px
+    height: 250px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .byte-size-wireframe-row {
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 0.2rem;
   }
   .book-club-title {
     font-size: 1.5rem;
@@ -578,8 +589,21 @@ iframe {
     margin-bottom: 1rem;
     font-size: 1rem;
   }
-  .book-club-image-row {
+  .book-club-image-row.row {
+    align-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .book-club-text-row {
     justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .book-club-row.row {
+    align-content: center;
+  }
+  .book-club-container {
+    align-content: center;
   }
 }
 
