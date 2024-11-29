@@ -78,32 +78,63 @@ function BookClubApp() {
           </Row>
           </Container>
 
-          <Container className='wireframe-container' fluid bg="dark">
-            <Container className="inner-wireframe-container">
-            <Row>
-              <h2 id='wireframe-header'>Wireframes</h2>
-            </Row>
-          <Row className="byte-size-wireframe-row">
-            <Col xs={4} md={4}>
-            <Image className="wireframe-image" src=''/>
+          <Container className="book-club-wireframe-container" fluid bg="dark">
+        <Container className="book-club-inner-wireframe-container">
+          <Row>
+            <h2 id="book-club-wireframe-header">Wireframes</h2>
+          </Row>
+          <Row className="book-club-wireframe-row">
+            <Col xs={3} md={3}>
+              <Image className="book-club-wireframe-image" src="../BookClubApp/Splash Screen.png" />
             </Col>
-            <Col xs={4} md={4}>
-            <Image className="wireframe-image" src=''/>
+            <Col xs={3} md={3}>
+              <Image className="book-club-wireframe-image" src="../BookClubApp/Login.png" />
             </Col>
-            <Col xs={4} md={4}>
-            <Image className="wireframe-image"  src=''/>
+            <Col xs={3} md={3}>
+              <Image className="book-club-wireframe-image" src="../BookClubApp/Sign-up.png" />
             </Col>
-            <Col xs={4} md={4}>
-            <Image className="wireframe-image" src=''/>
+            <Col xs={3} md={3}>
+              <Image className="book-club-wireframe-image" src="../BookClubApp/Home Screen-new user.png" />
             </Col>
-            <Col xs={4} md={4}>
-            <Image className="wireframe-image" src=''/>
+            <Col xs={3} md={3}>
+              <Image className="book-club-wireframe-image" src="../BookClubApp/Profile - New User.png" />
             </Col>
-            <Col xs={4} md={4}>
-            <Image className="wireframe-image" src=''/>
+            <Col xs={3} md={3}>
+              <Image className="book-club-wireframe-image" src="../BookClubApp/Profile - Exisiting User.png" />
+            </Col>
+            <Col xs={3} md={3}>
+              <Image className="book-club-wireframe-image" src="../BookClubApp/Home Screen - exisiting user.png" />
+            </Col>
+            <Col xs={3} md={3}>
+              <Image className="book-club-wireframe-image" src="../BookClubApp/Book Club Search.png" />
+            </Col>
+            <Col xs={3} md={23}>
+              <Image className="book-club-wireframe-image" src="../BookClubApp/Book Club Create.png" />
+            </Col>
+            <Col xs={3} md={3}>
+              <Image className="book-club-wireframe-image" src="../BookClubApp/Book Club Home Page - Member.png" />
+            </Col>
+            <Col xs={3} md={3}>
+              <Image className="book-club-wireframe-image" src="../BookClubApp/Creator.png" />
+            </Col>
+          
+             <Col xs={3} md={3}>
+             <Image className="book-club-wireframe-image" src="../BookClubApp/Book Club Page - About.png" />
+           </Col>
+           <Col xs={3} md={3}>
+              <Image className="book-club-wireframe-image" src="../BookClubApp/Book Club Page - Books.png" />
+            </Col>
+            <Col xs={3} md={3}>
+              <Image className="book-club-wireframe-image" src="../BookClubApp/Book Club Page - Messages.png" />
+            </Col>
+            <Col xs={3} md={3}>
+              <Image className="book-club-wireframe-image" src="../BookClubApp/Book Club Page - Poll.png" />
+            </Col>
+            <Col xs={3} md={3}>
+              <Image className="book-club-wireframe-image" src="../BookClubApp/Book Club Page - Events.png" />
             </Col>
           </Row>
-          </Container>
+        </Container>
           </Container> 
           <Container className="youtube-container">
               <Row className="youtube-row">
