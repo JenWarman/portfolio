@@ -262,15 +262,16 @@ iframe {
 .book-club-image-row {
   justify-content: center;
 }
+
 .book-club-wireframe-container {
   display: flex;
 }
 .book-club-inner-wireframe-container {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap;
   flex-direction: column;
   padding-top: 0;
-  padding-bottom: 0;
+  padding-bottom: 0; */
 }
 .book-club-wireframe-image {
   padding-top: 2rem;
