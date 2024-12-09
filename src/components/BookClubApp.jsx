@@ -1,6 +1,7 @@
 import { Container, Row, Col, Button, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import BookClubWireFrame from "./BookClubWireFrame";
+import BookClubTabs from "./BookClubTabs";
 
 function BookClubApp() {
   return (
@@ -176,9 +177,12 @@ function BookClubApp() {
       </Container>
       
       <Container>
+        <BookClubTabs/>
+      </Container>
+      {/* <Container>
       <h2 id="wireframe-header">Wireframes</h2>
       <BookClubWireFrame />
-      </Container>
+      </Container> */}
 
       {/* <Container className="youtube-container">
               <Row className="youtube-row">
