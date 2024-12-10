@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import BookClubPrototype from "./BookClubPrototype";
 import BookClubWireFrame from "./BookClubWireFrame";
 
@@ -13,10 +13,10 @@ export default function BookClubTabs() {
   }
 
   return (
-    <section>
+    <Container className='book-club-tabs-container' fluid>
     <Button value='wireframes' onClick={(handleClick)}>Wireframes</Button>
     <Button value='prototype' onClick={handleClick}>Prototype</Button>
     {isSelected && selectedTab === 'prototype' ? <BookClubPrototype/> : <BookClubWireFrame/>}
-    </section>
+    </Container>
   );
 }

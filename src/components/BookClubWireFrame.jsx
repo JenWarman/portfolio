@@ -2,7 +2,6 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 
 function BookClubWireFrame() {
     return (
-        // <Container className="book-club-wireframe-container" fluid>
         <Container className="book-club-inner-wireframe-container" fluid>
           <Row className="book-club-wireframe-row">
             <Col xs={4} md={3}>
@@ -103,7 +102,6 @@ function BookClubWireFrame() {
             </Col>
           </Row>
         </Container>
-    //   </Container>
     )
 }
 
