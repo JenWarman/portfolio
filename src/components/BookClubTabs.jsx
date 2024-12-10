@@ -14,11 +14,11 @@ export default function BookClubTabs() {
 
   return (
     <Container className='book-club-tabs-container' fluid>
-    <Row className='book-club-tab-row'> 
-   <Col xs={2} md={2}>
+    <Row className='text-center book-club-tab-row'> 
+   <Col xs={6} md={2}>
    <button className='book-club-tab-button' value='wireframes' onClick={(handleClick)}>Wireframes</button>
    </Col> 
-   <Col xs={1} md={1}>
+   <Col xs={6} md={1}>
    <button className='book-club-tab-button' value='prototype' onClick={handleClick}>Prototype</button>
    </Col>
     </Row> 

@@ -625,11 +625,8 @@ iframe {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .book-club-row.row {
-    align-content: center;
-  }
-  .book-club-container {
-    align-content: center;
+  .book-club-tab-button {
+    font-size: 1rem;
   }
 }
 
