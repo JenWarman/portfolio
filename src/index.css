@@ -296,6 +296,32 @@ iframe {
 .borderline-row {
   padding: 1rem;
 }
+.book-club-tabs-container {
+  display: block;
+  justify-content: center;
+}
+.book-club-tab-button {
+  font-size: 2rem;
+  font-weight: bold;
+  border: none;
+  background: none;
+  border-radius: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.book-club-tab-button:hover{
+  background-color: #093586;
+  color: #ffff;
+}
+.book-club-tab-button:focus{
+  background-color: black;
+  color: #ffff;
+  transform: scale(0.9);
+}
 
 /* mobile */
 @media screen and (max-width: 1200px) {
