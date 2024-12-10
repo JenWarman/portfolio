@@ -1,6 +1,6 @@
 function BookClubPrototype() {
     return (
-        <p>hello!</p>
+        <p>This will be a super wicked prototype!</p>
     )
 }
 

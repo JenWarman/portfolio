@@ -179,10 +179,6 @@ function BookClubApp() {
       <Container>
         <BookClubTabs/>
       </Container>
-      {/* <Container>
-      <h2 id="wireframe-header">Wireframes</h2>
-      <BookClubWireFrame />
-      </Container> */}
 
       {/* <Container className="youtube-container">
               <Row className="youtube-row">
