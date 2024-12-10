@@ -6,7 +6,7 @@ import BookClubTabs from "./BookClubTabs";
 function BookClubApp() {
   return (
     <>
-      <Container classname="book-club-container">
+      <Container className="book-club-container" >
         <Row className="book-club-row">
           <Col>
             <h1 className="book-club-title">Book Club App</h1>
@@ -31,28 +31,28 @@ function BookClubApp() {
         <Row className="book-club-image-row">
           <Col xs={6} md={3}>
             <Image
-              classname="book-club-group-image"
+              className="book-club-group-image"
               src="../ByteSizeHabitsMobileLogin.png"
               fluid
             />
           </Col>
           <Col xs={6} md={3}>
             <Image
-              classname="book-club-group-image"
+              className="book-club-group-image"
               src="../ByteSizeHabitsMobileLogin.png"
               fluid
             />
           </Col>
           <Col xs={6} md={3}>
             <Image
-              classname="book-club-group-image"
+              className="book-club-group-image"
               src="../ByteSizeHabitsMobileLogin.png"
               fluid
             />
           </Col>
           <Col xs={6} md={3}>
             <Image
-              classname="book-club-group-image"
+              className="book-club-group-image"
               src="../ByteSizeHabitsMobileLogin.png"
               fluid
             />
@@ -176,7 +176,7 @@ function BookClubApp() {
         </Row>
       </Container>
       
-      <Container>
+      <Container className='book-club-app-tabs-container'>
         <BookClubTabs/>
       </Container>
 

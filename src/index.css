@@ -245,7 +245,7 @@ iframe {
 }
 .book-club-container {
   justify-content: center;
-  display: flex;
+  display: block;
 }
 .book-club-title {
   text-align: center;
@@ -295,6 +295,9 @@ iframe {
 }
 .borderline-row {
   padding: 1rem;
+}
+.book-club-app-tabs-container{
+  padding: 1rem
 }
 .book-club-tabs-container {
   display: block;
