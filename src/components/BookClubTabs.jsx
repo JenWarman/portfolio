@@ -15,10 +15,10 @@ export default function BookClubTabs() {
   return (
     <Container className='book-club-tabs-container' fluid>
     <Row className='book-club-tab-row'> 
-   <Col >
+   <Col xs={2} md={2}>
    <button className='book-club-tab-button' value='wireframes' onClick={(handleClick)}>Wireframes</button>
    </Col> 
-   <Col >
+   <Col xs={1} md={1}>
    <button className='book-club-tab-button' value='prototype' onClick={handleClick}>Prototype</button>
    </Col>
     </Row> 
