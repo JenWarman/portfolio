@@ -1,27 +1,45 @@
-import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
-import ByteSizeWireFrames from './ByteSizeWireFrames';
-import ByteSizeHabitsDemo from './ByteSizeHabitsDemo';
-import { Container } from 'react-bootstrap';
+import { useState } from "react";
+import ByteSizeWireFrames from "./ByteSizeWireFrames";
+import ByteSizeHabitsDemo from "./ByteSizeHabitsDemo";
+import { Container, Col, Row } from "react-bootstrap";
 
 export default function ByteSizeHabitsTabs() {
-        return (
-            <Container classname="byte-size-habits-tabs">
-          <Tabs
-            defaultActiveKey="profile"
-            id="uncontrolled-tab-example"
-            className="mb-3"
+  const [selectedTab, setSelectedTab] = useState();
+ 
+
+  function handleClick(event) {
+    setSelectedTab(event.target.value);
+  
+  }
+
+  return (
+    <Container className="tabs">
+      <Row className="tabs-row">
+        <Col xs={6} md={2}>
+          <button
+            className="book-club-tab-button"
+            value="wireframes"
+            onClick={handleClick}
           >
-            <Tab eventKey="wireframes" title="Wireframes">
-              <ByteSizeWireFrames/>
-            </Tab>
-            <Tab eventKey="demo" title="Demo">
-              <ByteSizeHabitsDemo/>
-            </Tab>
-            <Tab eventKey="github" title="Github" disabled>
-              Tab content for Contact
-            </Tab>
-          </Tabs>
-          </Container>
-        );
-      }
+            Wireframes
+          </button>
+        </Col>
+        <Col xs={6} md={1}>
+          <button
+            className="book-club-tab-button"
+            value="demo"
+            onClick={handleClick}
+          >
+            Demo
+          </button>
+        </Col>
+      </Row>
+      {!selectedTab && <p>Please select a tab</p>}
+      {selectedTab === "demo" ? (
+        <ByteSizeHabitsDemo />
+      ) : (
+        <ByteSizeWireFrames />
+      )}
+    </Container>
+  );
+}

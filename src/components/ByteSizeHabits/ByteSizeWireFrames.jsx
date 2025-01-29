@@ -5,9 +5,6 @@ export default function ByteSizeWireFrames() {
     
     <Container className="wireframe-container" fluid bg="dark">
         <Container className="inner-wireframe-container">
-          <Row>
-            <h2 id="wireframe-header">Wireframes</h2>
-          </Row>
           <Row className="byte-size-wireframe-row">
             <Col xs={4} md={4}>
               <Image className="wireframe-image" src="../wireframe1.png" />

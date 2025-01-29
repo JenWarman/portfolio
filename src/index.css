@@ -231,7 +231,7 @@ a#header-title.navbar-brand {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  padding-top: 0;
+  padding-top: 1rem;
   padding-bottom: 0;
 }
 .youtube-container.container {
@@ -324,6 +324,14 @@ iframe {
   background-color: black;
   color: #ffff;
   transform: scale(0.9);
+}
+
+.tabs {
+  font-weight: bold;
+  font-size: 2rem;
+  display: block;
+  justify-content: center;
+  padding: 1rem
 }
 
 /* mobile */
@@ -541,7 +549,7 @@ iframe {
     justify-content: center;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: rem;
     padding-top: 0.2rem;
   }
   iframe {
@@ -626,7 +634,14 @@ iframe {
     padding-right: 2rem;
   }
   .book-club-tab-button {
-    font-size: 1rem;
+    /* font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 1rem; */
+  }
+  .tabs {
+    /* font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 1rem; */
   }
 }
 
