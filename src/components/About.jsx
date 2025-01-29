@@ -10,19 +10,20 @@ function About() {
         <Col className="about-text-section" xs={10} md={5}>
           <h1 className="about-title">About Me</h1>
           <h5 className="about-text">
-            Hi, I’m Jen, a UI/UX designer currently based in Nottingham, UK and
-            have been designing for over 13 years.<br></br>
-            <br></br>With a background in surface pattern design I more recently
-            embarked on a career in UI/UX design and Software Development. While
-            living in Berlin, Germany I volunteered as a web administrator for
-            the Berlin Kreativ Kollektiv, and since returning to the UK I began
-            volunteering as website manager for Borderline Arts. I wanted to
-            deepen my understanding of web applications, which led me to
-            completing a 13 week Software Development bootcamp at Northcoders.
-            <br></br>
-            <br></br>Now I continue to expand my design knowledge and utilise my
-            improved technical and interpersonal skills to create engaging
-            digital design solutions.
+            Hi, I’m Jen, a passionate software developer with a diverse
+            background in both creative and technical fields. <br></br>
+            <br></br>My journey into the world of web development began in
+            Berlin, where I volunteered as a web administrator for the Berlin
+            Kreativ Kollektiv. This experience sparked my interest in web
+            applications and led me to pursue further opportunities in the
+            field, including my current role as a website manager for Borderline
+            Arts, a UK-based mental health charity.<br></br>
+            <br></br>Seeking to deepen my technical knowledge, I completed a
+            13-week Software Development bootcamp at Northcoders, where I honed
+            my technical skills to cover both front-end and back-end development
+            and now, I look forward to applying my skills and continue to grow
+            as a developer, collaborating with others, and making a positive
+            impact through technology.
           </h5>
         </Col>
         <Col xs={10} md={5}>
