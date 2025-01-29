@@ -1,6 +1,9 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
+import ByteSizeWireFrames from "./ByteSizeWireFrames";
+import ByteSizeHabitsDemo from "./ByteSizeHabitsDemo";
+
 function ByteSizeHabits() {
   return (
     <>
@@ -145,48 +148,9 @@ function ByteSizeHabits() {
           </Col>
         </Row>
       </Container>
+      <ByteSizeWireFrames />
 
-      <Container className="wireframe-container" fluid bg="dark">
-        <Container className="inner-wireframe-container">
-          <Row>
-            <h2 id="wireframe-header">Wireframes</h2>
-          </Row>
-          <Row className="byte-size-wireframe-row">
-            <Col xs={4} md={4}>
-              <Image className="wireframe-image" src="../wireframe1.png" />
-            </Col>
-            <Col xs={4} md={4}>
-              <Image className="wireframe-image" src="../wireframe2.png" />
-            </Col>
-            <Col xs={4} md={4}>
-              <Image className="wireframe-image" src="../wireframe3.png" />
-            </Col>
-            <Col xs={4} md={4}>
-              <Image className="wireframe-image" src="../wireframe4.png" />
-            </Col>
-            <Col xs={4} md={4}>
-              <Image className="wireframe-image" src="../wireframe5.png" />
-            </Col>
-            <Col xs={4} md={4}>
-              <Image className="wireframe-image" src="../wireframe6.png" />
-            </Col>
-          </Row>
-        </Container>
-      </Container>
-      <Container className="youtube-container">
-        <Row className="youtube-row">
-          <Col className="youtube-col">
-            <iframe
-              src="https://www.youtube.com/embed/WPAtkq1zvKI?si=ie-yvSHupAOpQSYC"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-          </Col>
-        </Row>
-      </Container>
+      <ByteSizeHabitsDemo/>
     </>
   );
 }

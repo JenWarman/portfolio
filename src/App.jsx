@@ -9,8 +9,8 @@ import About from './components/About';
 import Skills from './components/Skills';
 import DesignProjects from './components/Projects';
 import 'animate.css';
-import ByteSizeHabits from './components/ByteSizeHabits';
-import BookClubApp from './components/BookClubApp';
+import ByteSizeHabits from './components/ByteSizeHabits/ByteSizeHabits';
+import BookClubApp from './components/BookClub/BookClubApp';
 import BorderlineArts from './components/BorderlineArts';
 import NCNews from './components/NCNews'
 

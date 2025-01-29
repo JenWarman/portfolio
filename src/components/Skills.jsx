@@ -1,4 +1,3 @@
-import { Collapse } from 'react-bootstrap';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
@@ -26,8 +25,8 @@ function Skills() {
         <Col className='icon-col' xs={1} md={1} >
         <Image className='animate_animated animate__fadeInDown skills-circle' src='../Group 5.svg'/>
         </Col>
-        <Col className='icon-col'xs={1} md={1} >
-        <Image className='animate_animated animate__fadeInDown skills-circle' src='../Group 9.svg'/>
+        <Col className='icon-col' xs={1} md={1} >
+        <Image className='animate_animated animate__fadeInDown skills-circle' src='../typescript.svg'/>
         </Col>
         <Col className='icon-col'xs={1} md={1} >
         <Image className='animate_animated animate__fadeInDown skills-circle' src='../Group 8.svg'/>
@@ -37,6 +36,9 @@ function Skills() {
         </Col>
         <Col className='icon-col' xs={1} md={1} >
         <Image className='animate_animated animate__fadeInDown skills-circle' src='../Mask group.svg'/>
+        </Col>
+        <Col className='icon-col' xs={1} md={1} >
+        <Image className='animate_animated animate__fadeInDown skills-circle' src='../angular-icon-1.svg'/>
         </Col>
         <Col className='icon-col'xs={1} md={1} >
         <Image className='animate_animated animate__fadeInDown skills-circle' src='../Group 13.svg'/>
