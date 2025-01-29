@@ -118,7 +118,7 @@ function ByteSizeHabits() {
               <li className="byte-size-list">
                 <h5 className="byte-size-list">
                   <span>
-                    <strong>Motivate the user.</strong> Nibbler's health
+                    <strong>Motivate the user.</strong> Nibbler’s health
                     decreases over time and the only way to restore him to full
                     charge is for the user to complete their daily learning
                     objective.
