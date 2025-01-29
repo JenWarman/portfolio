@@ -1,8 +1,7 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import ByteSizeWireFrames from "./ByteSizeWireFrames";
-import ByteSizeHabitsDemo from "./ByteSizeHabitsDemo";
+import ByteSizeHabitsTabs from "./ByteSizeTabs";
 
 function ByteSizeHabits() {
   return (
@@ -148,9 +147,7 @@ function ByteSizeHabits() {
           </Col>
         </Row>
       </Container>
-      <ByteSizeWireFrames />
-
-      <ByteSizeHabitsDemo/>
+      <ByteSizeHabitsTabs/>
     </>
   );
 }
