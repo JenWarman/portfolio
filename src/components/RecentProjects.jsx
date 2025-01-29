@@ -18,7 +18,7 @@ function RecentProjects() {
           <p className="recent-projects-text">
             <Link className="recent-projects-link" to="/byte-size-habits">
               <strong>Byte Size Habits</strong>
-            </Link>{" "}
+            </Link>
             is a modern web application designed to help users track their daily
             habits and personal goals, with a playful, Tamagotchi-style
             interface. Created using React, Next.js, and styled with TailwindCSS

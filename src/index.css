@@ -296,13 +296,7 @@ iframe {
 .borderline-row {
   padding: 1rem;
 }
-/* .book-club-app-tabs-container{
-  padding: 1rem
-} */
-.book-club-tabs-container {
-  /* display: block;
-  justify-content: center; */
-}
+
 .book-club-tab-button {
   font-size: 2rem;
   font-weight: bold;
@@ -322,7 +316,6 @@ iframe {
   color: #ffff;
 }
 .book-club-tab-button{
-  /* background-color: black; */
   color: black;
   transform: scale(0.9);
 }

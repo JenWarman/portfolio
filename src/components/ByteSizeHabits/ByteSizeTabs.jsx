@@ -19,10 +19,10 @@ export default function ByteSizeHabitsTabs() {
     content = <ByteSizeHabitsDemo />;
   }
   if (selectedTab === "github") {
-    window.location.href = 'https://github.com/DannyGreenan/byte-size-habits';
+    window.location.href = "https://github.com/DannyGreenan/byte-size-habits";
   }
   if (selectedTab === "website") {
-    window.location.href = 'https://byte-size-habits.vercel.app/'
+    window.location.href = "https://byte-size-habits.vercel.app/";
   }
   return (
     <Container className="tabs" center>
@@ -30,18 +30,17 @@ export default function ByteSizeHabitsTabs() {
         <button
           value="wireframes"
           onClick={handleClick}
-          className={
-            "book-club-tab-button " +
-            (selectedTab == "wireframes" ? "active " : "")
-          }
+          className={`book-club-tab-button ${
+            selectedTab == "wireframes" ? "active " : ""
+          }`}
         >
           Wireframes
         </button>
 
         <button
-          className={
-            "book-club-tab-button " + (selectedTab == "demo" ? "active " : "")
-          }
+          className={`book-club-tab-button ${
+            selectedTab == "demo" ? "active " : ""
+          }`}
           value="demo"
           onClick={handleClick}
         >
@@ -49,9 +48,9 @@ export default function ByteSizeHabitsTabs() {
         </button>
 
         <button
-          className={
-            "book-club-tab-button " + (selectedTab == "github" ? "active " : "")
-          }
+         className={`book-club-tab-button ${
+          selectedTab == "github" ? "active " : ""
+        }`}
           value="github"
           onClick={handleClick}
         >
@@ -59,10 +58,9 @@ export default function ByteSizeHabitsTabs() {
         </button>
 
         <button
-          className={
-            "book-club-tab-button " +
-            (selectedTab == "website" ? "active " : "")
-          }
+          className={`book-club-tab-button ${
+            selectedTab == "website" ? "active " : ""
+          }`}
           value="website"
           onClick={handleClick}
         >
