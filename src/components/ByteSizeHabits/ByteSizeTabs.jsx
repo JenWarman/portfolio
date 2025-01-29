@@ -19,10 +19,10 @@ export default function ByteSizeHabitsTabs() {
     content = <ByteSizeHabitsDemo />;
   }
   if (selectedTab === "github") {
-    content = <p>Github</p>;
+    window.location.href = 'https://github.com/DannyGreenan/byte-size-habits';
   }
   if (selectedTab === "website") {
-    content = <p>Website</p>;
+    window.location.href = 'https://byte-size-habits.vercel.app/'
   }
   return (
     <Container className="tabs" center>
