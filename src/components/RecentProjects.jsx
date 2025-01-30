@@ -17,7 +17,7 @@ function RecentProjects() {
           </h2>
           <p className="recent-projects-text">
             <Link className="recent-projects-link" to="/byte-size-habits">
-              <strong>Byte Size Habits</strong>
+              <strong>Byte Size Habits </strong>
             </Link>
             is a modern web application designed to help users track their daily
             habits and personal goals, with a playful, Tamagotchi-style

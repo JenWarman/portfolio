@@ -13,7 +13,7 @@ function Projects() {
         <Row className="project-info">
           <Col xs={6} md={3}>
             <Link to="/byte-size-habits" className="recent-projects-link">
-              {" "}
+              
               <h2 className="projects-title">Byte Size Habits</h2>
             </Link>
             <p className="projects-text">
