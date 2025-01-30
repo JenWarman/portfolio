@@ -22,8 +22,8 @@ function ByteSizeHabits() {
                 className="recent-projects-link"
                 to="https://github.com/DannyGreenan/byte-size-habits"
               >
-                <strong>Byte Size Habits</strong>
-              </Link>{" "}
+                <strong>Byte Size Habits </strong>
+              </Link>
               is a habit tracker web application specifically designed to help
               users learn how to code and improve their programming skills.
               <br></br>
