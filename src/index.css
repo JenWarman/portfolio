@@ -312,7 +312,7 @@ iframe {
 }
 .book-club-tab-button:hover, 
 .book-club-tab-button.active {
-  background-color: #093586;
+  background-color: black;
   color: #ffff;
 }
 .book-club-tab-button{
