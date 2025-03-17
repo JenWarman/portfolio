@@ -21,9 +21,7 @@ export default function ByteSizeHabitsTabs() {
   if (selectedTab === "github") {
     window.location.href = "https://github.com/DannyGreenan/byte-size-habits";
   }
-  if (selectedTab === "website") {
-    window.location.href = "https://byte-size-habits.vercel.app/";
-  }
+  
   return (
     <Container className="tabs" center>
       <Col>
@@ -55,16 +53,6 @@ export default function ByteSizeHabitsTabs() {
           onClick={handleClick}
         >
           Github
-        </button>
-
-        <button
-          className={`book-club-tab-button ${
-            selectedTab == "website" ? "active " : ""
-          }`}
-          value="website"
-          onClick={handleClick}
-        >
-          Website
         </button>
       </Col>
       {content}
