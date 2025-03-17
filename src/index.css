@@ -40,24 +40,6 @@ a#header-title.navbar-brand {
   margin-top: 100%;
 }
 
-#designer {
-  text-align: center;
-}
-
-#developer {
-  text-align: center;
-}
-.hero-sub-header {
-  text-align: justify;
-  font-size: 1.5rem;
-}
-
-.profile-image {
-  width: 80%;
-  margin: 1rem;
-  /* border-radius: 50%; */
-}
-
 .recent-projects.container {
   padding: 1rem;
 }
@@ -87,14 +69,14 @@ a#header-title.navbar-brand {
   color: #2c76ff;
 } */
 
-.about-row.row {
+/* .about-row.row {
   justify-content: center;
-}
+} */
 
-.about-title {
+/* .about-title {
   font-weight: bold;
   font-size: 60px;
-}
+} */
 
 .about-text {
   text-align: justify;
@@ -324,7 +306,7 @@ iframe {
 }
 
 /* mobile */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   .content {
     position: relative;
     z-index: 100;
@@ -343,9 +325,9 @@ iframe {
       background-position: 0% 50%;
     }
   }
-  /* .container {
+  .container {
     padding: 0;
-  } */
+  }
   .nav-bar {
     font-size: 0.7rem;
     width: 100%;
@@ -371,10 +353,13 @@ iframe {
   .hero-header {
     display: none;
   }
+  .profile-image{
+    width: 50vw;
+  }
   .media-hero-header {
     display: block;
-    /* margin-top: 1.5rem;
-    margin-bottom: 1.5rem; */
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     font-weight: bold;
     font-size: 3rem;
     text-align: center;
@@ -425,9 +410,9 @@ iframe {
   .about-text {
     margin: 0 auto;
     font-size: 1rem;
-    /* margin-bottom: 2rem; */
+    margin-bottom: 2rem;
   }
-  /* .skills-circle {
+  .skills-circle {
     width: 2.5rem;
     height: 2.5rem;
     display: flex;
@@ -436,9 +421,9 @@ iframe {
     color: #ffff;
     font-size: 30px;
     text-align: center;
-  } */
+  }
   .skills.container {
-    /* margin-top: 3rem; */
+    margin-top: 3rem;
     margin-bottom: 2rem;
     justify-content: center;
     font-weight: 1rem;
@@ -631,7 +616,7 @@ iframe {
 }
 
 /* Animation */
-.slide-right {
+/* .slide-right {
   -webkit-animation: slide-right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.6
     both;
   animation: slide-right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.6 both;
@@ -680,7 +665,7 @@ iframe {
     -webkit-transform: translateX(-100px);
     transform: translateX(-100px);
   }
-}
+} */
 
 .scale-in-ver-top {
   -webkit-animation: scale-in-ver-top 2s cubic-bezier(0.25, 0.46, 0.45, 0.94)

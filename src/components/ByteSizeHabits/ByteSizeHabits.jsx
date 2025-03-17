@@ -12,7 +12,7 @@ function ByteSizeHabits() {
             <h1 className="byte-size-title">
               <Link
                 target="_blank"
-                className="recent-projects-link"
+                className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
                 to="https://github.com/DannyGreenan/byte-size-habits"
               >
                 Byte Size Habits
@@ -21,7 +21,7 @@ function ByteSizeHabits() {
             <h5 className="byte-size-intro">
               <Link
                 target="_blank"
-                className="recent-projects-link"
+                className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
                 to="https://github.com/DannyGreenan/byte-size-habits"
               >
                 <strong>Byte Size Habits </strong>
@@ -53,7 +53,7 @@ function ByteSizeHabits() {
             <h5 className="byte-size-intro">
               Final group project for{" "}
               <Link
-                className="recent-projects-link"
+                className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
                 to="https://northcoders.com/project-phase/byte-size-habits"
               >
                 <strong>Northcoders</strong>

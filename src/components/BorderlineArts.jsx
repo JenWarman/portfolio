@@ -10,20 +10,13 @@ function BorderlineArts() {
             <h1 className="borderline-title">
               <Link
               target="_blank"
-                className="recent-projects-link"
+                className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
                 to="https://www.borderlinearts.org/"
               >
                 Borderline Arts
               </Link>
             </h1>
             <h5 className="borderline-intro">
-              <Link
-              target="_blank"
-                className="recent-projects-link"
-                to="https://www.borderlinearts.org/"
-              >
-                <strong></strong>
-              </Link>
               Redesign of a local mental health charity&#39;s website as part of
               their online initiative to rebrand for their 10 year anniversary.
               <br></br>

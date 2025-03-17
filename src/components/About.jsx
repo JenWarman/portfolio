@@ -6,10 +6,10 @@ import Row from "react-bootstrap/Row";
 function About() {
   return (
     <Container className="about-section">
-      <Row className="about-row">
+      <Row className="about-row d-flex justify-content-center align-items-center p-2">
         <Col className="about-text-section" xs={10} md={5}>
-          <h1 className="about-title">About Me</h1>
-          <h5 className="about-text">
+          <h1 className="about-title display-1 text-wrap fw-bold lh-base text-black">About Me</h1>
+          <h5 className="about-text text-wrap fs-5 fw-normal lh-base text-black">
             Hi, I&#39;m Jen, a passionate software developer with a diverse
             background in both creative and technical fields. <br></br>
             <br></br>My journey into the world of web development began in

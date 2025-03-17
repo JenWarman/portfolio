@@ -5,27 +5,27 @@ import Row from "react-bootstrap/Row";
 
 function HeroBar() {
   return (
-    <Container className="hero-bar">
-      <Row className="hero-row">
-        <Col className="slide-right" xs={6} md={3}>
-          <h1 id="designer" className="hero-header">
+    <Container className="pt-2 pt-3">
+      <Row className="d-flex flex-row mb-3 justify-content-center align-items-center">
+        <Col className="slide-right ">
+          <h1 id="designer" className="display-1 hero-sub-header text-wrap fw-bold lh-base text-black text-center" >
             Designer
           </h1>
-          <h5 className="hero-sub-header">
-            UI/UX design for engaging and functional digital experiences.{" "}
+          <h5 className="hero-sub-header text-wrap fs-3 fw-normal lh-base text-black text-justify">
+            UI/UX design for engaging and functional digital experiences.
           </h5>
         </Col>
-        <Col xs={11} md={6}>
+        <Col>
           <Image className="profile-image" src="../profileBG.png" />
         </Col>
-        <Col className="slide-left" xs={6} md={3}>
-          <h1 className="hero-header">Developer</h1>
-          <h5 className="hero-sub-header">
-            Frontend web development with solid and scalable code.{" "}
+        <Col className="slide-left">
+          <h1 className="display-1 hero-sub-header text-wrap fw-bold lh-base text-black text-center">Developer</h1>
+          <h5 className="hero-sub-header text-wrap fs-3 fw-normal lh-base text-black">
+            Frontend web development with solid and scalable code.
           </h5>
         </Col>
         <Row>
-          <Col xs={11}>
+          <Col>
             <h1 className="media-hero-header">Designer & Developer</h1>
           </Col>
         </Row>

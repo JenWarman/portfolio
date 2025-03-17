@@ -12,7 +12,7 @@ function Projects() {
         </Row>
         <Row className="project-info">
           <Col xs={6} md={3}>
-            <Link to="/byte-size-habits" className="recent-projects-link">
+            <Link to="/byte-size-habits" className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark">
               <h2 className="projects-title">Byte Size Habits</h2>
             </Link>
             <p className="projects-text">
@@ -42,7 +42,7 @@ function Projects() {
 
         <Row className="project-info">
           <Col id="borderline-text-box" xs={12} md={3}>
-            <Link to="/ncnews" className="recent-projects-link">
+            <Link to="/ncnews" className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark">
               <h2 id="borderline-header" className="projects-title">
                 NC News
               </h2>
@@ -67,7 +67,7 @@ function Projects() {
 
         <Row className="project-info">
           <Col id="borderline-text-box" xs={12} md={3}>
-            <Link to="/borderline-arts" className="recent-projects-link">
+            <Link to="/borderline-arts" className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark">
               <h2 id="borderline-header" className="projects-title">
                 Borderline Arts
               </h2>

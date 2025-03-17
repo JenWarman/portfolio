@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 function ProjectsCarousel() {
   return (
-    <Container className="p-2">
-      <h2 className="text-center fs-1 fw-bold pb-2">
-        <Link className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark" to="/projects">
+    <Container className="p-2 ">
+      <h2 className="text-center display-4 fw-bold pb-2">
+        <Link className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 text-black" to="/projects">
           Recent Projects
         </Link>
       </h2>

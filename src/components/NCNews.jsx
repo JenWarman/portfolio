@@ -8,7 +8,7 @@ export default function NCNews() {
         <Col className="byte-size-col" xs={11} md={4}>
           <Link
             target="_blank"
-            className="recent-projects-link"
+            className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
             to="https://github.com/JenWarman/nc-news-react-app"
           >
             <h1 className="byte-size-title">NC News</h1>
@@ -16,7 +16,7 @@ export default function NCNews() {
           <h5 className="byte-size-intro">
             <Link
               target="_blank"
-              className="recent-projects-link"
+              className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
               to="https://github.com/JenWarman/nc-news-react-app"
             >
               <strong>NC News</strong>
