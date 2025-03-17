@@ -58,7 +58,7 @@ a#header-title.navbar-brand {
   /* border-radius: 50%; */
 }
 
-/* .recent-projects.container {
+.recent-projects.container {
   padding: 1rem;
 }
 
@@ -69,23 +69,23 @@ a#header-title.navbar-brand {
   padding-right: 1rem;
 }
 
-.recent-projects-title :hover {
+/* .recent-projects-title :hover {
   color: #2c76ff;
-}
-.recent-projects-text {
+} */
+/* .recent-projects-text {
   font-size: 1.2rem;
   padding-right: 1rem;
   padding-top: 0.5rem;
   text-align: justify;
 } */
-.recent-projects-link {
+/* .recent-projects-link {
   text-decoration: none;
   color: black;
 }
 
-.recent-projects-link :hover {
+.recent-projects-link:hover {
   color: #2c76ff;
-}
+} */
 
 .about-row.row {
   justify-content: center;

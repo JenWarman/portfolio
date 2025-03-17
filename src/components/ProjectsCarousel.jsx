@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 function ProjectsCarousel() {
   return (
     <Container className="p-2">
-      <h2 className="text-center fs-1 fw-bold pb-2 ">
-        <Link className="recent-projects-link" to="/projects">
+      <h2 className="text-center fs-1 fw-bold pb-2">
+        <Link className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark" to="/projects">
           Recent Projects
         </Link>
       </h2>
@@ -14,7 +14,7 @@ function ProjectsCarousel() {
         <Carousel.Item>
           <Image src="../NCNews.png" />
           <Carousel.Caption className="text-bg-dark p-3">
-            <h3 className="fw-bold fs-3 text-light">Not Art</h3>
+            <h3 className="fw-bold fs-3 text-light"><Link className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-light">Not Art</Link></h3>
             <p className="fs-5 text-light">
               A web application bringing Nottingham&#39;s creative community
               together, allowing the user to search for and sign up for art and
@@ -25,7 +25,7 @@ function ProjectsCarousel() {
         <Carousel.Item>
           <Image src="../NCNews.png" />
           <Carousel.Caption className="text-bg-dark p-3">
-            <h3 className="fw-bold fs-3 text-light">Byte Size Habits</h3>
+            <h3 className="fw-bold fs-3 text-light"><Link className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-light" to="/byte-size-habits">Byte Size Habits</Link></h3>
             <p className="fs-5 text-light">
               Byte Size Habits is a habit tracker web application specifically
               designed to help users learn how to code and improve their
@@ -36,7 +36,7 @@ function ProjectsCarousel() {
         <Carousel.Item>
           <Image src="../NCNews.png" />
           <Carousel.Caption className="text-bg-dark p-3">
-            <h3 className="fw-bold fs-3 text-light">NC News</h3>
+            <h3 className="fw-bold fs-3 text-light"><Link className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-light" to="/ncnews">NC News</Link></h3>
             <p className="fs-5 text-light">
               A social news aggregation, web content rating and discussion
               website.
@@ -46,9 +46,9 @@ function ProjectsCarousel() {
         <Carousel.Item>
           <Image src="../NCNews.png" />
           <Carousel.Caption className="text-bg-dark p-3">
-            <h3 className="fw-bold fs-3 text-light">Borderline Arts</h3>
+            <h3 className="fw-bold fs-3 text-light"><Link className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-light" to="/borderline-arts">Borderline Arts</Link></h3>
             <p className="fs-5 text-light">
-              Redesign of a local mental health charity’s website as part of
+              Redesign of a local mental health charity&#39;s website as part of
               their online initiative to rebrand for their 10 year anniversary.
             </p>
           </Carousel.Caption>
