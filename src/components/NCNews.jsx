@@ -20,7 +20,7 @@ export default function NCNews() {
               to="https://github.com/JenWarman/nc-news-react-app"
             >
               <strong>NC News</strong>
-            </Link>{" "}
+            </Link>
             is a social news platform that allows the user to fetch news
             articles based on a search criteria, post comments and like
             articles.
@@ -88,7 +88,7 @@ export default function NCNews() {
                 <span>
                   <strong>Backend.</strong> This project uses PostgreSQL to
                   manage new articles, user information and comments with the
-                  use of a RESTful API backend.{" "}
+                  use of a RESTful API backend.
                 </span>
               </h5>
             </li>

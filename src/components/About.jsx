@@ -10,7 +10,7 @@ function About() {
         <Col className="about-text-section" xs={10} md={5}>
           <h1 className="about-title">About Me</h1>
           <h5 className="about-text">
-            Hi, I’m Jen, a passionate software developer with a diverse
+            Hi, I&#39;m Jen, a passionate software developer with a diverse
             background in both creative and technical fields. <br></br>
             <br></br>My journey into the world of web development began in
             Berlin, where I volunteered as a web administrator for the Berlin

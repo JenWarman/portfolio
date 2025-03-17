@@ -73,8 +73,8 @@ function Projects() {
               </h2>
             </Link>
             <p className="projects-text">
-              Redesign of a local mental health charity’s website as part of
-              their online initiative to rebrand for their 10 year anniversary.{" "}
+              Redesign of a local mental health charity&#39;s website as part of
+              their online initiative to rebrand for their 10 year anniversary.
             </p>
             <Link to="/borderline-arts">
               <Button className="project-button" variant="outline-dark">

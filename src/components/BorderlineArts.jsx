@@ -24,13 +24,13 @@ function BorderlineArts() {
               >
                 <strong></strong>
               </Link>
-              Redesign of a local mental health charity’s website as part of
+              Redesign of a local mental health charity&#39;s website as part of
               their online initiative to rebrand for their 10 year anniversary.
               <br></br>
               <br></br>
               The redesign focussed on two key areas, rebranding and updating
               the design of the website but to also improve accessibility and
-              ease of information. This was achieved using Wix’s customisable
+              ease of information. This was achieved using Wix&#39;s customisable
               website builder and Content Management Software in addition to
               Wave to ensure high accessibility standards.
             </h5>

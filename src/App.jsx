@@ -3,7 +3,7 @@ import Header from './components/Header'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HeroBar from './components/HeroBar';
 import Footer from './components/Footer';
-import RecentProjects from './components/RecentProjects';
+// import RecentProjects from './components/RecentProjects';
 import { Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -13,6 +13,7 @@ import ByteSizeHabits from './components/ByteSizeHabits/ByteSizeHabits';
 import BookClubApp from './components/BookClub/BookClubApp';
 import BorderlineArts from './components/BorderlineArts';
 import NCNews from './components/NCNews'
+import ProjectsCarousel from './components/ProjectsCarousel';
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
        <div className="content"> 
       <Header/>
         <Routes>
-          <Route path='/' element={<><HeroBar /><RecentProjects/></>}></Route>
+          <Route path='/' element={<><HeroBar /><ProjectsCarousel/></>}></Route>
             <Route path='/about' element={<><About /><Skills/></>}></Route>
             <Route path='/projects' element={<DesignProjects />}></Route>
             <Route path='/byte-size-habits' element={<ByteSizeHabits/>}></Route>
