@@ -11,14 +11,16 @@ function ByteSizeHabits() {
           <Col className="byte-size-col" xs={11} md={4}>
             <h1 className="byte-size-title">
               <Link
+                target="_blank"
                 className="recent-projects-link"
-                to="https://byte-size-habits.vercel.app/"
+                to="https://github.com/DannyGreenan/byte-size-habits"
               >
                 Byte Size Habits
               </Link>
             </h1>
             <h5 className="byte-size-intro">
               <Link
+                target="_blank"
                 className="recent-projects-link"
                 to="https://github.com/DannyGreenan/byte-size-habits"
               >
@@ -147,7 +149,7 @@ function ByteSizeHabits() {
           </Col>
         </Row>
       </Container>
-      <ByteSizeHabitsTabs/>
+      <ByteSizeHabitsTabs />
     </>
   );
 }

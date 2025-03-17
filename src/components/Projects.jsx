@@ -13,7 +13,6 @@ function Projects() {
         <Row className="project-info">
           <Col xs={6} md={3}>
             <Link to="/byte-size-habits" className="recent-projects-link">
-              
               <h2 className="projects-title">Byte Size Habits</h2>
             </Link>
             <p className="projects-text">
@@ -26,10 +25,7 @@ function Projects() {
                 Project
               </Button>
             </Link>
-            <Link to="https://byte-size-habits.vercel.app/">
-              <Image className="project-icon" src="../domain.png" />
-            </Link>
-            <Link to="https://github.com/DannyGreenan/byte-size-habits">
+            <Link target="_blank" to="https://github.com/DannyGreenan/byte-size-habits">
               <Image className="project-icon" src="../github-mark.png" />
             </Link>
           </Col>
@@ -60,7 +56,7 @@ function Projects() {
                 Project
               </Button>
             </Link>
-            <Link to="https://github.com/JenWarman/nc-news-react-app">
+            <Link target="_blank" to="https://github.com/JenWarman/nc-news-react-app">
               <Image className="project-icon" src="../github-mark.png" />
             </Link>
           </Col>
@@ -85,7 +81,7 @@ function Projects() {
                 Project
               </Button>
             </Link>
-            <Link to="https://www.borderlinearts.org/">
+            <Link target="_blank" to="https://www.borderlinearts.org/">
               <Image className="project-icon" src="../domain.png" />
             </Link>
           </Col>

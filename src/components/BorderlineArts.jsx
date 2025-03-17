@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button, Image } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function BorderlineArts() {
@@ -9,16 +9,18 @@ function BorderlineArts() {
           <Col className="byte-size-col" xs={11} md={4}>
             <h1 className="borderline-title">
               <Link
+              target="_blank"
                 className="recent-projects-link"
-                to="https://byte-size-habits.vercel.app/"
+                to="https://www.borderlinearts.org/"
               >
                 Borderline Arts
               </Link>
             </h1>
             <h5 className="borderline-intro">
               <Link
+              target="_blank"
                 className="recent-projects-link"
-                to="https://github.com/DannyGreenan/byte-size-habits"
+                to="https://www.borderlinearts.org/"
               >
                 <strong></strong>
               </Link>

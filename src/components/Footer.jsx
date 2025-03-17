@@ -13,12 +13,12 @@ function Footer() {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item className="social-icon ">
-            <Nav.Link href="https://www.linkedin.com/in/jen-warman-38198a172/">
+            <Nav.Link target="_blank" href="https://www.linkedin.com/in/jen-warman-38198a172/">
               <Image src="../LinkedIn.png" />
             </Nav.Link>
           </Nav.Item>
           <Nav.Item className="social-icon">
-            <Nav.Link href="https://github.com/JenWarman">
+            <Nav.Link target="_blank" href="https://github.com/JenWarman">
               <Image id='footer-icon'src="../Github.png" />
             </Nav.Link>
           </Nav.Item>

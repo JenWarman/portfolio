@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button, Image } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export default function NCNews() {
@@ -7,6 +7,7 @@ export default function NCNews() {
       <Row className="byte-size-row">
         <Col className="byte-size-col" xs={11} md={4}>
           <Link
+            target="_blank"
             className="recent-projects-link"
             to="https://github.com/JenWarman/nc-news-react-app"
           >
@@ -14,6 +15,7 @@ export default function NCNews() {
           </Link>
           <h5 className="byte-size-intro">
             <Link
+              target="_blank"
               className="recent-projects-link"
               to="https://github.com/JenWarman/nc-news-react-app"
             >
@@ -36,14 +38,7 @@ export default function NCNews() {
         <Col xs={11} md={4}>
           <h2 className="byte-size-sub-header">Project</h2>
           <h5 className="byte-size-intro">
-            Fullstack project for part of the{" "}
-            <Link
-              className="recent-projects-link"
-              to="https://northcoders.com/project-phase/byte-size-habits"
-            >
-              <strong>Northcoders</strong>
-            </Link>{" "}
-            Software Development bootcamp.
+            Fullstack project for part of the Northcoders Software Development bootcamp.
           </h5>
           <h2 className="byte-size-sub-header">Role</h2>
           <h5 className="byte-size-intro">Full stack software developer.</h5>
