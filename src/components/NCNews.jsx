@@ -19,9 +19,9 @@ export default function NCNews() {
               className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
               to="https://github.com/JenWarman/nc-news-react-app"
             >
-              <strong>NC News</strong>
+              <strong>NC News </strong>
             </Link>
-            is a social news platform that allows the user to fetch news
+             is a social news platform that allows the user to fetch news
             articles based on a search criteria, post comments and like
             articles.
             <br></br>

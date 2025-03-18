@@ -59,7 +59,7 @@ function Projects() {
           <Col xs={10} md={8}>
             <Image
               className="project-image"
-              src="../ByteSizeHabits_Main.png"
+              src="../../ByteSizeHabits/ByteSizeHabits_Main.png"
               fluid
             />
           </Col>
