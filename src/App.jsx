@@ -14,6 +14,7 @@ import BookClubApp from './components/BookClub/BookClubApp';
 import BorderlineArts from './components/BorderlineArts';
 import NCNews from './components/NCNews'
 import ProjectsCarousel from './components/ProjectsCarousel';
+import NotArt from './components/NotArt';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <Route path='/book-club-app' element={<BookClubApp/>}></Route>
             <Route path='/borderline-arts' element={<BorderlineArts/>}></Route>
             <Route path='/ncnews' element={<NCNews/>}></Route>
+            <Route path='/not-art' element={<NotArt/>}></Route>
         </Routes> 
       <Footer />
     </div>

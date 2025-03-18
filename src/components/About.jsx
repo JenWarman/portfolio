@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 
 function About() {
   return (
-    <Container className="about-section">
+    <Container>
       <Row className="about-row d-flex justify-content-center align-items-center p-2">
         <Col className="about-text-section" xs={10} md={5}>
           <h1 className="about-title display-1 text-wrap fw-bold lh-base text-black">About Me</h1>

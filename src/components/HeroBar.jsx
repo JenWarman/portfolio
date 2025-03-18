@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 
 function HeroBar() {
   return (
-    <Container className="pt-2 pt-3">
+    <Container>
       <Row className="d-flex flex-row mb-3 justify-content-center align-items-center">
         <Col className="slide-right ">
           <h1 id="designer" className="display-1 hero-sub-header text-wrap fw-bold lh-base text-black text-center" >
@@ -16,7 +16,7 @@ function HeroBar() {
           </h5>
         </Col>
         <Col>
-          <Image className="profile-image" src="../profileBG.png" />
+          <Image className="img-fluid" src="../profileBG.png" />
         </Col>
         <Col className="slide-left">
           <h1 className="display-1 hero-sub-header text-wrap fw-bold lh-base text-black text-center">Developer</h1>
