@@ -1,34 +1,64 @@
-import Button from 'react-bootstrap/Button';
+import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
+import { Link } from "react-router-dom";
 
 function HeroBar() {
   return (
     <Container>
-      <div className='circle'>
-      <Row className="align-items-stretch ">
+      <Row className="align-items-stretch pb-5">
         <Col className="align-items-center m-auto">
           <Col>
-            <h1 className="display-2 text-wrap fw-bold text-black pb-1 pt-1 ">
+            <h1 className="hero-title display-2 text-wrap fw-bold text-black pb-1 pt-1 ">
               designer & developer
             </h1>
           </Col>
-         <Col>
-          <p className="fs-5 fw-normal lh-base text-black text-justify  pt-3 pe-5">
-            UI/UX design for engaging and functional digital experiences.
-            Engaging and functional UI/UX design for digital experiences and
-            frontend web development with solid and scalable code.
-          </p>
-          <Button variant="outline-dark" className='fs-5 fw-3'>see my work</Button>
+          <Col>
+            <p className="hero-text fs-5 fw-normal lh-base text-black text-justify  pt-3 pe-5">
+              Hi, I&#39;m Jen Warman. A passionate software developer creating
+              digital experiences with engaging and functional UI/UX design and
+              solid scalable code.
+            </p>
+            <div className="hero-button">
+              <Link
+                to="/projects"
+                onClick={() => {
+                  window.scroll({
+                    top: 0,
+                    left: 0,
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                <Button className="btn btn-outline-dark fw-bolder bg-transparent fs-6 border-3 mt-3">
+                  See My Work
+                </Button>
+              </Link>
+            </div>
           </Col>
         </Col>
         <Col xs="auto" className="d-flex flex-column justify-content-center">
-          <Image src="../profileBG.png" alt="Example" />
+          <Image
+            src="../profileBG.png"
+            alt="Example"
+            style={{ borderRadius: "50%" }}
+            className="hero-image"
+          />
         </Col>
+        <Row xs="auto" className="d-flex flex-row hero-links align-self-end">
+          <Link target="_blank" className="text-black fs-5">
+            LinkedIn /
+          </Link>
+          <Link target="_blank" className="text-black fs-5">
+            Github /
+          </Link>
+          <Link target="_blank" className="text-black fs-5">
+            Email /
+          </Link>
+        </Row>
       </Row>
-      </div>
     </Container>
   );
 }
