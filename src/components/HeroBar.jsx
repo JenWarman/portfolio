@@ -48,13 +48,13 @@ function HeroBar() {
           />
         </Col>
         <Row xs="auto" className="d-flex flex-row hero-links align-self-end">
-          <Link target="_blank" className="text-black fs-5">
+          <Link target="_blank" className="text-black fs-5" href="https://www.linkedin.com/in/jen-warman-38198a172/">
             LinkedIn /
           </Link>
-          <Link target="_blank" className="text-black fs-5">
+          <Link target="_blank" className="text-black fs-5" href="https://github.com/JenWarman">
             Github /
           </Link>
-          <Link target="_blank" className="text-black fs-5">
+          <Link target="_blank" className="text-black fs-5" href="mailto: jen.warman85@gmail.com">
             Email /
           </Link>
         </Row>

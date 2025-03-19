@@ -4,86 +4,81 @@ import { Link } from "react-router-dom";
 function BorderlineArts() {
   return (
     <>
-      <Container classname="byte-size-habits">
-        <Row className="byte-size-row">
-          <Col className="byte-size-col" xs={11} md={4}>
-            <h1 className="borderline-title">
+      <Container>
+        <Row>
+          <Row>
+            <Image src="../../BorderlineArts_Main.png" fluid />
+          </Row>
+          <Row>
+            <h1 className="text-center display-2 fw-bold p-5">
               <Link
-              target="_blank"
+                target="_blank"
                 className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
                 to="https://www.borderlinearts.org/"
               >
                 Borderline Arts
               </Link>
             </h1>
-            <h5 className="borderline-intro">
+            <h5 className="fs-3 text-black pb-5">
               Redesign of a local mental health charity&#39;s website as part of
               their online initiative to rebrand for their 10 year anniversary.
-              <br></br>
-              <br></br>
               The redesign focussed on two key areas, rebranding and updating
               the design of the website but to also improve accessibility and
-              ease of information. This was achieved using Wix&#39;s customisable
-              website builder and Content Management Software in addition to
-              Wave to ensure high accessibility standards.
+              ease of information. This was achieved using Wix&#39;s
+              customisable website builder and Content Management Software in
+              addition to Wave to ensure high accessibility standards.
             </h5>
-          </Col>
-          <Col xs={11} md={8}>
-            <Image
-              classname="byte-size-group-image"
-              src="../BorderlineArts.png"
-              fluid
-            />
-          </Col>
+          </Row>
         </Row>
-        <Row className="byte-size-row">
-          <Col xs={11} md={3}>
-            <h2 className="borderline-sub-header">Project</h2>
-            <h5 id="borderline-project-type" className="borderline-intro">
-              Volunteer position.
-            </h5>
-          </Col>
-          <Col xs={11} md={9}>
-            <h2 className="borderline-sub-header">Role</h2>
-            <h5 id="borderline-intro" className="borderline-intro">
-              UI/UX design and web development.
-            </h5>
-          </Col>
+        <Row>
+          <Row>
+            <Col>
+              <h2 className="display-8 fw-bold">Project</h2>
+              <h5 className="fs-3 text-black pb-5">
+                Redesign a local mental health charity&#39;s website with a
+                strong focus on accessibility, ease of use and updated branding.
+              </h5>
+            </Col>
+            <Col>
+              <h2 className="display-8 fw-bold">Role</h2>
+              <h5 className="fs-3 text-black">
+                UI/UX design and web development.
+              </h5>
+            </Col>
+          </Row>
         </Row>
-        <Row className="borderline-row">
-          <Col xs={11} md={12} className="borderline-objectives">
-            <h2 className="borderline-sub-header">Objectives</h2>
-            <ul>
-              <li className="byte-size-list">
-                <h5 className="byte-size-list">
-                  <span>
-                    <strong>Accessibility.</strong> The contents of the website
-                    is simplified and streamlined with improved navigation,
-                    including call to action buttons and page anchors so the
-                    user can easily locate vital information such as medical or
-                    emergency contacts.
-                  </span>
-                </h5>
-              </li>
-              <li className="byte-size-list">
-                <h5 className="byte-size-list">
-                  <span>
-                    <strong>Rebrand.</strong> A vibrant colour palette, dynamic
-                    layout, energetic graphics and character design create a
-                    bold brand identity.
-                  </span>
-                </h5>
-              </li>
-              <li className="byte-size-list">
-                <h5 className="byte-size-list">
-                  <span>
-                    <strong>Maintainable. </strong>Created using Wix the website
-                    is easy to maintain by volunteer staff.
-                  </span>
-                </h5>
-              </li>
-            </ul>
-          </Col>
+        <Row className="pb-5">
+          <h2 className="display-8 fw-bold">Objectives</h2>
+          <ul>
+            <li className="byte-size-list">
+              <h5 className="fs-3 text-black">
+                <span>
+                  <strong>Accessibility.</strong> The contents of the website is
+                  simplified and streamlined with improved navigation, including
+                  call to action buttons and page anchors so the user can easily
+                  locate vital information such as medical or emergency
+                  contacts.
+                </span>
+              </h5>
+            </li>
+            <li className="byte-size-list">
+              <h5 className="fs-3 text-black">
+                <span>
+                  <strong>Rebrand.</strong> A vibrant colour palette, dynamic
+                  layout, energetic graphics and character design create a bold
+                  brand identity.
+                </span>
+              </h5>
+            </li>
+            <li className="byte-size-list">
+              <h5 className="fs-3 text-black">
+                <span>
+                  <strong>Maintainable. </strong>Created using Wix the website
+                  is easy to maintain by volunteer staff.
+                </span>
+              </h5>
+            </li>
+          </ul>
         </Row>
       </Container>
     </>
