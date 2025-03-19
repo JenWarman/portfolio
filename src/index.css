@@ -31,9 +31,9 @@
 a.nav-link {
   font-size: 1.5rem;
 }
-a#header-title.navbar-brand {
+/* a#header-title.nav-link {
   font-size: 3rem;
-}
+}  */
 .hero-header {
   font-weight: bold;
   font-size: 4rem;
