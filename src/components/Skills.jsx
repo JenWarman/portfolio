@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 function Skills() {
 
   return (
-    <Container className='skills'>
+    <Container>
       <Row className='skills-row'>
         <Col className='icon-col'xs={1} md={1} >
         <Image className='animate_animated animate__fadeInDown skills-circle' src='../Group 16.svg'/>
