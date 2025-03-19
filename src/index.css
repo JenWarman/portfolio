@@ -40,6 +40,35 @@ a#header-title.navbar-brand {
   margin-top: 100%;
 }
 
+/* #designer {
+  transform: rotate(-90deg);
+} */
+.verticalTextStyle {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 24px;
+  margin:0 20px;
+  text-align: center;
+  white-space: nowrap;
+};
+/* 
+.imageStyle{
+  width: 100%; 
+  max-width: 300px;
+  height: auto;
+}; */
+
+.line {
+    border: 1px solid #000;
+    margin: 20px 0;
+    height: 100px;
+    transform: rotate(90deg);
+    transform-origin: center;
+    width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .recent-projects.container {
   padding: 1rem;
 }
