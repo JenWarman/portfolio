@@ -11,7 +11,7 @@ function HeroBar() {
       <Row className="align-items-stretch pb-5">
         <Col className="align-items-center m-auto">
           <Col>
-            <h1 className="hero-title display-2 text-wrap fw-bold text-black pb-1 pt-1 ">
+            <h1 className="hero-title display-2 text-wrap fw-bold text-black">
               designer & developer
             </h1>
           </Col>
