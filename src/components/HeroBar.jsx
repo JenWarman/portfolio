@@ -11,12 +11,12 @@ function HeroBar() {
       <Row className="align-items-stretch pb-5">
         <Col className="align-items-center m-auto">
           <Col>
-            <h1 className="hero-title display-2 text-wrap fw-bold text-black pb-1 pt-1 ">
+            <h1 className="hero-title display-2 text-wrap fw-bold text-black">
               designer & developer
             </h1>
           </Col>
           <Col>
-            <p className="hero-text fs-5 fw-normal lh-base text-black text-justify  pt-3 pe-5">
+            <p className="hero-text fs-5 fw-normal lh-base text-black text-justify  pt-3 pe-3">
               Hi, I&#39;m Jen Warman. A passionate software developer creating
               digital experiences with engaging and functional UI/UX design and
               solid scalable code.
