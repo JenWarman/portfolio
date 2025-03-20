@@ -8,7 +8,7 @@ function About() {
     <Container>
       <Row className="d-flex justify-content-center align-items-center p-2">
         <Col xs={12} md={6}>
-          <h1 className="about-title display-1 text-wrap fw-bold lh-base text-black">
+          <h1 className="about-title display-2 text-wrap fw-bold lh-base text-black">
             About Me
           </h1>
           <h5 className="about-text text-wrap fs-4 fw-normal lh-base text-black">
@@ -28,8 +28,8 @@ function About() {
             impact through technology.
           </h5>
         </Col>
-        <Col xs={12} md={5}>
-          <Image src="../profile.jpg" fluid className="pt-3 pb-3"/>
+        <Col xs={12} md={5} className="d-flex justify-content-center align-items-center">
+          <Image src="../profile.jpg" fluid className="pt-3 pb-3 hero-image"/>
         </Col>
       </Row>
     </Container>

@@ -8,12 +8,12 @@ function ByteSizeHabits() {
   return (
     <>
       <Container>
-        <Row>
-          <Row>
+        <Row className="justify-content-center">
+          <Row className="pb-3 pt-3">
             <Image src="../../ByteSizeHabits/ByteSizeHabits_Main.png" fluid />
           </Row>
           <Row>
-            <h1 className="text-center display-2 fw-bold p-5">
+            <h1 className="text-center display-2 fw-bold p-3">
               <Link
                 target="_blank"
                 className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
@@ -22,7 +22,7 @@ function ByteSizeHabits() {
                 Byte Size Habits
               </Link>
             </h1>
-            <h5 className="fs-3 text-black pb-5">
+            <h5 className="about-text fs-3 text-black pb-3">
               <Link
                 target="_blank"
                 className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
@@ -44,9 +44,11 @@ function ByteSizeHabits() {
             </h5>
           </Row>
         </Row>
-        <Row>
+        <Row className="justify-content-center">
           <Row>
             <Col>
+            <Row>
+            <Col className="project-info">
               <h2 className="display-8 fw-bold">Project</h2>
               <h5 className="fs-3 text-black pb-3">
                 Final group project for
@@ -59,24 +61,29 @@ function ByteSizeHabits() {
                 </Link>
                 bootcamp.
               </h5>
-              <h2 className="display-8 fw-bold">Role</h2>
-              <h5 className="fs-3 text-black">
-                Full stack software developer.
-              </h5>
-            </Col>
-            <Col>
+              </Col>
+              <Col className="project-info">
               <h2 className="display-8 fw-bold">Tech Stack</h2>
-              <h5 className="fs-3 text-black">
+              <h5 className="fs-3 text-black pb-3">
                 JavaScript, Next.js, Supabase, Tailwind CSS, Daisy UI and
                 Chart.js.
               </h5>
             </Col>
+              </Row>
+              <Col className="project-info">
+              <h2 className="display-8 fw-bold pb-3">Role</h2>
+              <h5 className="fs-3 text-black">
+                Full stack software developer.
+              </h5>
+              </Col>
+            </Col>
+            
           </Row>
           <Row>
-            <Image src="../../ByteSizeHabits/ByteSizeFullScreen.png" fluid />
+            <Image src="../../ByteSizeHabits/ByteSizeFullScreen.png" fluid className="p-3"/>
           </Row>
         </Row>
-        <Row>
+        <Row className="p-3">
           <h2 className="display-8 fw-bold">Objectives</h2>
           <ul>
             <li className="byte-size-list">

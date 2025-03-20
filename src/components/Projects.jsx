@@ -10,8 +10,8 @@ function Projects() {
             <h1 className="display-4 fw-bold pt-2">Projects</h1>
           </Col>
         </Row>
-        <Row className="pt-5 pb-5">
-          <Col xs={12} md={4}>
+        <Row className="project-row">
+          <Col xs={12} md={4} className="project-col">
             <Link
               to="/not-art"
               onClick={() => {
@@ -53,7 +53,7 @@ function Projects() {
             />
           </Col>
         </Row>
-        <Row className="pt-5 pb-5">
+        <Row className="project-row">
           <Col xs={12} md={4}>
             <Link
               to="/byte-size-habits"
@@ -97,7 +97,7 @@ function Projects() {
           </Col>
         </Row>
 
-        <Row className="pt-5 pb-5">
+        <Row className="project-row">
           <Col xs={12} md={4}>
             <Link
               to="/ncnews"
@@ -136,7 +136,7 @@ function Projects() {
           </Col>
         </Row>
 
-        <Row className="pt-5 pb-5">
+        <Row className="project-row">
           <Col xs={12} md={4}>
             <Link
               to="/borderline-arts"
