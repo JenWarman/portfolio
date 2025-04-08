@@ -1,4 +1,4 @@
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function BorderlineArts() {
@@ -10,52 +10,56 @@ function BorderlineArts() {
             <Image src="../../BorderlineArts_Main.png" fluid />
           </Row>
           <Row>
-            <h1 className="text-center display-2 fw-bold p-3">
+            <h1 className=" display-6 fw-bold p-2">
               <Link
                 target="_blank"
-                className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
+                className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 text-black"
                 to="https://www.borderlinearts.org/"
               >
                 Borderline Arts
               </Link>
             </h1>
-            <h5 className="about-text fs-3 text-black pb-3">
+            <h5 className="about-text fs-5 text-black pb-2">
               Redesign of a local mental health charity&#39;s website as part of
               their online initiative to rebrand for their 10 year anniversary.
-              The redesign focussed on two key areas, rebranding and updating
-              the design of the website but to also improve accessibility and
-              ease of information. This was achieved using Wix&#39;s
-              customisable website builder and Content Management Software in
-              addition to Wave to ensure high accessibility standards.
+              <br></br>
+              <br></br>
+              In addition to enhancing the branding of the website the redesign
+              focussed on accessibility and improving the user experience which
+              was achieved by streamlined navigation, call to action buttons and
+              engaging UI design.
             </h5>
           </Row>
         </Row>
 
         <Row className="justify-content-center">
           <Row>
-            <Col className="project-info">
-             
-                <h2 className="display-8 fw-bold">Project</h2>
-                <h5 className="fs-3 text-black pb-3">
-                  Redesign a local mental health charity&#39;s website with a
-                  strong focus on accessibility, ease of use and updated
-                  branding.
-                </h5>
-           
-            </Col>
-            <Col className="project-info">
-              <h2 className="display-8 fw-bold">Role</h2>
-              <h5 className="fs-3 text-black pb-3">
-                UI/UX design and web development.
+            <Row className="project-info">
+              <h2 className="fs-4 fw-bold">Project</h2>
+              <h5 className="fs-5 text-black pb-2">
+                Redesign a local mental health charity&#39;s website with a
+                strong focus on accessibility, ease of use and updated branding.
               </h5>
-            </Col>
+            </Row>
+            <Row className="project-info">
+              <h2 className="fs-4 fw-bold">Role</h2>
+              <h5 className="fs-5 text-black pb-2">
+                Project managment, UX design and frontend development. 
+              </h5>
+            </Row>
+            <Row className="project-info">
+              <h2 className="fs-4 fw-bold">Tech Stack</h2>
+              <h5 className="fs-5 text-black pb-2">
+                Wix Content Managment System and Wave. 
+              </h5>
+            </Row>
           </Row>
         </Row>
         <Row className="p-3">
-          <h2 className="display-8 fw-bold">Objectives</h2>
+          <h2 className="fs-4 fw-bold">Objectives</h2>
           <ul>
             <li className="byte-size-list">
-              <h5 className="fs-3 text-black">
+              <h5 className="fs-5 text-black">
                 <span>
                   <strong>Accessibility.</strong> The contents of the website is
                   simplified and streamlined with improved navigation, including
@@ -66,7 +70,7 @@ function BorderlineArts() {
               </h5>
             </li>
             <li className="byte-size-list">
-              <h5 className="fs-3 text-black">
+              <h5 className="fs-5 text-black">
                 <span>
                   <strong>Rebrand.</strong> A vibrant colour palette, dynamic
                   layout, energetic graphics and character design create a bold
@@ -75,7 +79,7 @@ function BorderlineArts() {
               </h5>
             </li>
             <li className="byte-size-list">
-              <h5 className="fs-3 text-black">
+              <h5 className="fs-5 text-black">
                 <span>
                   <strong>Maintainable. </strong>Created using Wix the website
                   is easy to maintain by volunteer staff.
