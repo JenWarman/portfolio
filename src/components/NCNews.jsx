@@ -10,19 +10,19 @@ export default function NCNews() {
             <Image src="../../NCNews_Main.png" fluid />
           </Row>
           <Row>
-            <h1 className="text-center display-2 fw-bold p-3">
+            <h1 className="display-6 fw-bold p-2">
               <Link
                 target="_blank"
-                className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
+                className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 text-black"
                 to="https://github.com/JenWarman/nc-news-react-app"
               >
                 NC News
               </Link>
             </h1>
-            <h5 className="about-text fs-3 text-black pb-3">
+            <h5 className="about-text fs-5 text-black pb-2">
               <Link
                 target="_blank"
-                className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
+                className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 text-black"
                 to="https://github.com/JenWarman/nc-news-react-app"
               >
                 <strong>NC News </strong>
@@ -39,43 +39,37 @@ export default function NCNews() {
           <Row>
             <Col>
               <Row>
-                <Col>
-                  <h2 className="display-8 fw-bold">Project</h2>
-                  <h5 className="fs-3 text-black pb-3">
+                <Row>
+                  <h2 className="fs-4 fw-bold">Project</h2>
+                  <h5 className="fs-5 text-black pb-2">
                     Fullstack project for part of the Northcoders Software
                     Development bootcamp.
                   </h5>
-                </Col>
-                <Col className="project-info">
-                  <h2 className="display-8 fw-bold">Tech Stack</h2>
-                  <h5 className="fs-3 text-black pb-3">
+                </Row>
+                <Row className="project-info">
+                  <h2 className="fs-4 fw-bold">Tech Stack</h2>
+                  <h5 className="fs-5 text-black pb-2">
                     JavaScript, React, CSS and PostgreSQL.
                   </h5>
-                </Col>
+                </Row>
               </Row>
-              <Col className="project-info">
-                <h2 className="display-8 fw-bold">Tech Stack</h2>
-                <h5 className="fs-3 text-black">
-                  JavaScript, React, CSS and PostgreSQL.
-                </h5>
-              </Col>
             </Col>
-            <Col className="project-info">
-              <h2 className="display-8 fw-bold pb-3">Role</h2>
-              <h5 className="fs-3 text-black">
+            <Row className="project-info">
+              <h2 className="fs-4 fw-bold pb-2">Role</h2>
+              <h5 className="fs-5 text-black">
                 Full stack software developer.
               </h5>
-            </Col>
+            </Row>
           </Row>
           <Row>
             <Image src="../NCNEWS_COMMENTS.png" fluid className="p-3" />
           </Row>
         </Row>
         <Row className="pb-3">
-          <h2 className="display-8 fw-bold">Objectives</h2>
+          <h2 className="fs-4 fw-bold">Objectives</h2>
           <ul>
             <li className="byte-size-list">
-              <h5 className="fs-3 text-black">
+              <h5 className="fs-5 text-black">
                 <span>
                   <strong>Backend.</strong> This project uses PostgreSQL to
                   manage new articles, user information and comments with the
@@ -84,7 +78,7 @@ export default function NCNews() {
               </h5>
             </li>
             <li className="byte-size-list">
-              <h5 className="fs-3 text-black">
+              <h5 className="fs-5 text-black">
                 <span>
                   <strong>Frontend.</strong> React was used to create a
                   responsive user interface with Bootstrap styled components.
@@ -92,7 +86,7 @@ export default function NCNews() {
               </h5>
             </li>
             <li className="byte-size-list">
-              <h5 className="fs-3 text-black">
+              <h5 className="fs-5 text-black">
                 <span>
                   <strong>User Experience. </strong> NC News allows the user to
                   login in, post their own comments and like articles.
