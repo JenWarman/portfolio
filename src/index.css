@@ -103,6 +103,9 @@ iframe {
   .hero-button {
     text-align: center;
   }
+  .hero-image-col {
+    justify-content: center;
+  }
   .hero-image {
     width: 70%;
     align-self: center;

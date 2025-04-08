@@ -11,7 +11,7 @@ function About() {
           <h1 className="about-title display-2 text-wrap fw-bold lh-base text-black">
             About Me
           </h1>
-          <h5 className="about-text text-wrap fs-4 fw-normal lh-base text-black">
+          <h5 className="about-text text-wrap fs-5 fw-normal lh-base text-black">
             Hi, I&#39;m Jen, a passionate software developer with a diverse
             background in both creative and technical fields. <br></br>
             <br></br>My journey into the world of web development began in

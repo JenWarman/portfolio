@@ -23,9 +23,9 @@ function Projects() {
               }}
               className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
             >
-              <h2 className="fs-2 text-black fw-bolder">Not Art</h2>
+              <h2 className="fs-4 text-black fw-bolder">Not Art</h2>
             </Link>
-            <p className="fs-4 text-black">
+            <p className="fs-5 text-black">
               A web application bringing Nottingham&#39;s creative community
               together, allowing the user to search for and sign up for art and
               cultural events in their area.
@@ -40,7 +40,7 @@ function Projects() {
                 });
               }}
             >
-              <Button className="btn btn-outline-dark fw-bolder bg-transparent fs-6 border-3">
+              <Button className="btn btn-outline-dark fw-bolder bg-transparent fs-6 border-3 text-black">
                 See Project Details
               </Button>
             </Link>
@@ -66,9 +66,9 @@ function Projects() {
               }}
               className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
             >
-              <h2 className="fs-2 text-black fw-bolder">Byte Size Habits</h2>
+              <h2 className="fs-4 text-black fw-bolder">Byte Size Habits</h2>
             </Link>
-            <p className="fs-4 text-black">
+            <p className="fs-5 text-black">
               Byte Size Habits is a habit tracker web application specifically
               designed to help users learn how to code and improve their
               programming skills.
@@ -83,7 +83,7 @@ function Projects() {
                 });
               }}
             >
-              <Button className="btn btn-outline-dark fw-bolder bg-transparent fs-6 border-3">
+              <Button className="btn btn-outline-dark fw-bolder bg-transparent fs-6 border-3 text-black">
                 See Project Details
               </Button>
             </Link>
@@ -110,9 +110,9 @@ function Projects() {
               }}
               className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
             >
-              <h2 className="fs-2 text-black fw-bolder">NC News</h2>
+              <h2 className="fs-4 text-black fw-bolder">NC News</h2>
             </Link>
-            <p className="fs-4 text-black">
+            <p className="fs-5 text-black">
               A social news aggregation, web content rating and discussion
               website.
             </p>
@@ -126,7 +126,7 @@ function Projects() {
                 });
               }}
             >
-              <Button className="btn btn-outline-dark fw-bolder bg-transparent fs-6 border-3">
+              <Button className="btn btn-outline-dark fw-bolder bg-transparent fs-6 border-3 text-black">
                 See Project Details
               </Button>
             </Link>
@@ -149,9 +149,9 @@ function Projects() {
               }}
               className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
             >
-              <h2 className="fs-2 text-black fw-bolder">Borderline Arts</h2>
+              <h2 className="fs-4 text-black fw-bolder">Borderline Arts</h2>
             </Link>
-            <p className="fs-4 text-black">
+            <p className="fs-5 text-black">
               Redesign of a local mental health charity&#39;s website as part of
               their online initiative to rebrand for their 10 year anniversary.
             </p>
@@ -165,7 +165,7 @@ function Projects() {
                 });
               }}
             >
-              <Button className="btn btn-outline-dark fw-bolder bg-transparent fs-6 border-3">
+              <Button className="btn btn-outline-dark fw-bolder bg-transparent fs-6 border-3 text-black">
                 See Project Details
               </Button>
             </Link>

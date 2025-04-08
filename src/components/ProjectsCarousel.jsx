@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function ProjectsCarousel() {
   return (
     <Container className="pb-5">
-      <h2 className="text-center display-4 fw-bold pb-2">
+      <h2 className="text-center fs-2 fw-bold pb-2">
         <Link
           onClick={() => {
             window.scroll({

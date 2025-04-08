@@ -32,14 +32,14 @@ function HeroBar() {
                   });
                 }}
               >
-                <Button className="btn btn-outline-dark fw-bolder bg-transparent fs-6 border-3 mt-3">
+                <Button className="btn btn-outline-dark fw-bolder bg-transparent fs-6 border-3 mt-3 text-black">
                   See My Work
                 </Button>
               </Link>
             </div>
           </Col>
         </Col>
-        <Col xs="auto" className="d-flex flex-column justify-content-center">
+        <Col xs="auto" className="hero-image-col d-flex flex-column justify-content-center">
           <Image
             src="../profileBG.png"
             alt="Example"
@@ -47,14 +47,14 @@ function HeroBar() {
             className="hero-image"
           />
         </Col>
-        <Row xs="auto" className="d-flex flex-row hero-links align-self-end">
-          <Link target="_blank" className="text-black fs-5" to="https://www.linkedin.com/in/jen-warman-38198a172/">
+        <Row xs="auto" className="d-flex flex-row hero-links align-self-start">
+          <Link target="_blank" className="text-black fs-6" to="https://www.linkedin.com/in/jen-warman-38198a172/">
             LinkedIn /
           </Link>
-          <Link target="_blank" className="text-black fs-5" to="https://github.com/JenWarman">
+          <Link target="_blank" className="text-black fs-6" to="https://github.com/JenWarman">
             Github /
           </Link>
-          <Link target="_blank" className="text-black fs-5" to="mailto: jen.warman85@gmail.com">
+          <Link target="_blank" className="text-black fs-6" to="mailto: jen.warman85@gmail.com">
             Email /
           </Link>
         </Row>
