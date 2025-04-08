@@ -10,7 +10,7 @@ export default function NotArt() {
             <Image src="../../NotArt/NotArt_Main.png" fluid />
           </Row>
           <Row>
-            <h1 className="text-center display-6 fw-bold p-3">
+            <h1 className="display-6 fw-bold p-2">
               <Link
                 target="_blank"
                 className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 text-black"
@@ -19,7 +19,7 @@ export default function NotArt() {
                 Not Art
               </Link>
             </h1>
-            <h5 className="about-text fs-5 text-black pb-3">
+            <h5 className="about-text fs-5 text-black pb-2">
               Welcome to
               <Link
                 target="_blank"
@@ -42,7 +42,7 @@ export default function NotArt() {
               <Row>
                 <Row className="project-info">
                   <h2 className="fs-4 fw-bold">Project</h2>
-                  <h5 className="fs-5 text-black pb-3">
+                  <h5 className="fs-5 text-black pb-2">
                     A full stack web application for a creative business based
                     in Nottingham to help manage and share events with their
                     community members.
@@ -50,14 +50,14 @@ export default function NotArt() {
                 </Row>
                 <Row className="project-info">
                   <h2 className="fs-4 fw-bold">Tech Stack</h2>
-                  <h5 className="fs-5 text-black pb-3">
+                  <h5 className="fs-5 text-black pb-2">
                     TypeScript, Angular, CSS and Supabase.
                   </h5>
                 </Row>
               </Row>
               <Row className="project-info">
                 <h2 className="fs-4 fw-bold">Role</h2>
-                <h5 className="fs-5 text-black pb-3">
+                <h5 className="fs-5 text-black pb-2">
                   Freelance Project Consultant responsible for UX/UI design and
                   full stack software development.
                 </h5>

@@ -13,19 +13,19 @@ function ByteSizeHabits() {
             <Image src="../../ByteSizeHabits/ByteSizeHabits_Main.png" fluid />
           </Row>
           <Row>
-            <h1 className="text-center display-2 fw-bold p-3">
+            <h1 className="display-6 fw-bold p-2">
               <Link
                 target="_blank"
-                className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
+                className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 text-black"
                 to="https://github.com/DannyGreenan/byte-size-habits"
               >
                 Byte Size Habits
               </Link>
             </h1>
-            <h5 className="about-text fs-3 text-black pb-3">
+            <h5 className="about-text fs-5 text-black pb-2">
               <Link
                 target="_blank"
-                className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
+                className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 text-black"
                 to="https://github.com/DannyGreenan/byte-size-habits"
               >
                 <strong>Byte Size Habits </strong>
@@ -38,9 +38,7 @@ function ByteSizeHabits() {
               Tamagotchi-style digital pet called Nibbler. Nibbler can offer the
               user useful resources on your chosen topic of study and provide
               timed sessions to help the user fulfil their daily study target.
-              <br></br>
-              <br></br>This application was created using Javascript, React,
-              Next.js, Supabase, Tailwind CSS, Daisy UI and Chart.js.
+             
             </h5>
           </Row>
         </Row>
@@ -48,12 +46,12 @@ function ByteSizeHabits() {
           <Row>
             <Col>
             <Row>
-            <Col className="project-info">
-              <h2 className="display-8 fw-bold">Project</h2>
-              <h5 className="fs-3 text-black pb-3">
+            <Row className="project-info">
+              <h2 className="fs-4 fw-bold">Project</h2>
+              <h5 className="fs-5 text-black pb-2">
                 Final group project for
                 <Link
-                  className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 link-dark"
+                  className="link-opacity-25-hover link-offset-2 link-underline link-underline-opacity-0 text-black"
                   to="https://northcoders.com/project-phase/byte-size-habits"
                   target="_blank"
                 >
@@ -61,21 +59,21 @@ function ByteSizeHabits() {
                 </Link>
                 bootcamp.
               </h5>
-              </Col>
-              <Col className="project-info">
-              <h2 className="display-8 fw-bold">Tech Stack</h2>
-              <h5 className="fs-3 text-black pb-3">
+              </Row>
+              <Row className="project-info">
+              <h2 className="fs-4 fw-bold">Tech Stack</h2>
+              <h5 className="fs-5 text-black pb-2">
                 JavaScript, Next.js, Supabase, Tailwind CSS, Daisy UI and
                 Chart.js.
               </h5>
-            </Col>
+            </Row>
               </Row>
-              <Col className="project-info">
-              <h2 className="display-8 fw-bold pb-3">Role</h2>
-              <h5 className="fs-3 text-black">
+              <Row className="project-info">
+              <h2 className="fs-4 fw-bold pb-2">Role</h2>
+              <h5 className="fs-5 text-black">
                 Full stack software developer.
               </h5>
-              </Col>
+              </Row>
             </Col>
             
           </Row>
@@ -84,10 +82,10 @@ function ByteSizeHabits() {
           </Row>
         </Row>
         <Row className="p-3">
-          <h2 className="display-8 fw-bold">Objectives</h2>
+          <h2 className="fs-4 fw-bold">Objectives</h2>
           <ul>
             <li className="byte-size-list">
-              <h5 className="fs-3 text-black">
+              <h5 className="fs-5 text-black">
                 <span>
                   <strong>Set personal goals.</strong> The user can select a
                   programming language to learn and set a daily target to study,
@@ -96,7 +94,7 @@ function ByteSizeHabits() {
               </h5>
             </li>
             <li className="byte-size-list">
-              <h5 className="fs-3 text-black">
+              <h5 className="fs-5 text-black">
                 <span>
                   <strong>Motivate the user.</strong> Nibbler&#39;s health
                   decreases over time and the only way to restore him to full
@@ -106,7 +104,7 @@ function ByteSizeHabits() {
               </h5>
             </li>
             <li className="byte-size-list">
-              <h5 className="fs-3 text-black">
+              <h5 className="fs-5 text-black">
                 <span>
                   <strong>Reward the user. </strong> When the user completes a
                   study session they are awarded coins in addition to restoring
@@ -116,7 +114,7 @@ function ByteSizeHabits() {
               </h5>
             </li>
             <li className="byte-size-list">
-              <h5 className="fs-3 text-black">
+              <h5 className="fs-5 text-black">
                 <span>
                   <strong> Track progress.</strong>The user can track their
                   progress and compare their weekly or monthly streak.
